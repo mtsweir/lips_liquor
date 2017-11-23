@@ -1,0 +1,28 @@
+{
+  "name": "lips_liquor",
+  "version": "1.0.0",
+  "description": "Lips liquor website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtsweir/lips_liquor.git"
+  },
+  "keywords": [
+    "bootstrap4"
+  ],
+  "author": "m.ts.weir@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtsweir/lips_liquor/issues"
+  },
+  "homepage": "https://github.com/mtsweir/lips_liquor#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.1.6"
+  }
+}
