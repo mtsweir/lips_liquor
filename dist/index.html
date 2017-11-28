@@ -5,42 +5,535 @@
 	<title>Homepage</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+	<!-- CSS -->
 	<link rel="stylesheet" href="../dist/css/bootstrap.css">
+	<!-- JS -->
+	<!-- <script src="../dist/js/modernizr.custom.js"></script> -->
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600" rel="stylesheet">
 </head>
 <body>
 <a class="sr-only sr-only-focusable" href="#lps-content">Skip to main content</a>
 
-<!-- Header Section -->
-<section id="lps-header" class="header">
-	<div class="container">
-		header
+<!-- Header -->
+<header id="lps-header" class="header">
+	<!-- Nav Info -->
+	<div class="nav-info py-2">
+		<div class="container">
+			<span class="logo-mobile d-block d-sm-none">
+				logo
+			</span>
+			<ul class="nav-info-list list-inline text-right m-0 d-none d-sm-block">
+				<li class="list-inline-item"><a href="#">Grab a deal</a></li>
+				<li class="list-inline-item"><a href="#">About</a></li>
+				<li class="list-inline-item"><a href="#">Sell on LIPS</a></li>
+				<li class="list-inline-item"><a href="#">Contact</a></li>
+				<li class="list-inline-item"><span class="nav-spacer">|</span>
+					<a href="#">Subscribe <span class="icon icon-mail"></span></a>
+				</li>
+			</ul>
+		</div>
 	</div>
-</section>
-
-<!-- Content Section -->
-<section id="lps-content" class="content">
-	<div class="container">
-		content
-	</div>
-</section>
-
-<!-- Footer Section -->
-<section id="lps-footer" class="footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm">
-				One of three columns
-			</div>
-			<div class="col-sm">
-				One of three columns
-			</div>
-			<div class="col-sm">
-				One of three columns
+	<!-- Nav Main -->
+	<div class="nav-main pt-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3 col-md-2">
+					<div class="logo logo-desktop d-none d-sm-block">
+						<a href="#">logo</a>
+					</div>
+				</div>
+				<div class="col-sm-9 col-md-10">
+					<form>
+						<div class="form-row">
+							<div class="form-group col-sm-6 col-md">
+								<label class="sr-only" for="selectFilter_Alcoholtype">Alcohol type</label>
+								<select class="form-control form-control-sm custom-select" id="exampleFormControlSelect2">
+									<option>Alcohol type</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="form-group col-sm-6 col-md">
+								<label class="sr-only" for="selectFilter_Drinktype">Drink type</label>
+								<select class="form-control form-control-sm custom-select" id="exampleFormControlSelect2">
+									<option>Drink type</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="form-group col-sm-6 col-md">
+								<label class="sr-only" for="selectFilter_Brand">Brand</label>
+								<select class="form-control form-control-sm custom-select" id="exampleFormControlSelect2">
+									<option>Brand</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="form-group col-sm-6 col-md">
+								<label class="sr-only" for="selectFilter_Retailer">Retailer</label>
+								<select class="form-control form-control-sm custom-select" id="exampleFormControlSelect2">
+									<option>Retailer</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="form-group col-sm-12 col-md-2">
+								<button type="submit" class="btn btn-primary btn-block btn-sm">Search</button>
+							</div>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>
+</header>
+
+<!-- Hero -->
+<section id="lps-hero" class="hero hero-image text-center text-white">
+	<div class="hero-section">
+		<img class="img-fluid" src="https://shop.gopro.com/on/demandware.static/-/Library-Sites-sharedGoProLibrary/default/dw93b12575/images/hero5_launch/Waterproof_02D_SI03455_160909_Benson_Aryana_25625227_780KB.jpg" title=""  alt="" >
+		<div class="hero-content">
+			<h1 class="hero-title">Find the best advertised prices, hottest liquor deals,<br> anywhere in New Zealand.</h1>
+			<p class="hero-subtitle">We have 1000’s of Beer, Wine, Spirits, Cider and RTD brand deals every week!</p>
+		</div>
+	</div>
 </section>
+
+<!-- Content -->
+<section id="lps-content" class="content py-5 mb-5">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-sm">
+				<div class="timer mx-auto p-2 text-center text-white">
+					<ul class="timer-display list-inline m-0">
+						<li class="list-inline-item">
+							<span class="timer-number" id="cd-d">03:</span>
+							<span class="timer-text">Days</span>
+						</li>
+						<li class="list-inline-item">
+							<span class="timer-number" id="cd-h">13:</span>
+							<span class="timer-text">Hours</span>
+						</li>
+						<li class="list-inline-item">
+							<span class="timer-number" id="cd-m">21:</span>
+							<span class="timer-text">Mins</span>
+						</li>
+						<li class="list-inline-item">
+							<span class="timer-number" id="cd-s">35:</span>
+							<span class="timer-text">Secs</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="row py-5 hero">
+			<div class="col-sm w-75 mx-auto text-center">
+				<h2 class="hero-title">Grab these Latest Deals</h2>
+				<p class="hero-subtitle">Hurry before these deals expire!</p>
+			</div>
+		</div>
+
+		<!-- LIPS Deals -->
+		<div class="row">
+			<div class="col-sm">
+				<div class="card h-100">
+					<div class="deal-img">
+						[image]
+					</div>
+					<div class="card-body">
+						<h4 class="card-title deal-header">Bach Brewing Duskrider Red IPA</h4>
+						<p class="deal-sub-header">Export clearance</p>
+						<p class="deal-info">330mls | Min order: 12 bottles</p>
+						<a href="#" class="deal-info-link" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">More info</a>
+						<a href="#" class="btn btn-primary">Buy Now</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="card h-100">
+					<div class="deal-img">
+						[image]
+					</div>
+					<div class="card-body">
+						<h4 class="card-title deal-header">Bach Brewing Duskrider Red IPA</h4>
+						<p class="deal-sub-header">Export clearance</p>
+						<p class="deal-info">330mls | Min order: 12 bottles</p>
+						<a href="#" class="deal-info-link" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">More info</a>
+						<a href="#" class="btn btn-primary">Buy Now</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="card h-100">
+					<div class="deal-img">
+						[image]
+					</div>
+					<div class="card-body">
+						<h4 class="card-title deal-header">Bach Brewing Duskrider Red IPA</h4>
+						<p class="deal-sub-header">Export clearance</p>
+						<p class="deal-info">330mls | Min order: 12 bottles</p>
+						<a href="#" class="deal-info-link" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">More info</a>
+						<a href="#" class="btn btn-primary">Buy Now</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="card h-100">
+					<div class="deal-img">
+						[image]
+					</div>
+					<div class="card-body">
+						<h4 class="card-title deal-header">Bach Brewing Duskrider Red IPA</h4>
+						<p class="deal-sub-header">Export clearance</p>
+						<p class="deal-info">330mls | Min order: 12 bottles</p>
+						<a href="#" class="deal-info-link" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">More info</a>
+						<a href="#" class="btn btn-primary">Buy Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<!-- Grid Demo
+<section>
+			<div class="main">
+				<ul id="og-grid" class="og-grid">
+					<li>
+						<a href="#" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+							[image]
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							[image]
+						</a>
+					</li>
+				</ul>
+				<p>Filler text by <a href="http://veggieipsum.com/">Veggie Ipsum</a></p>
+				<a id="og-additems" href="#">add more</a>
+			</div>
+</section>
+END: Grid Demo -->
+
+<!-- Features -->
+<section id="lps-features" class="hero hero-features mt-5 py-5">
+	<div class="container">
+
+		<div class="row pb-5">
+			<div class="col-sm text-center">
+				<h4 class="hero-subtitle text-muted">"Perfect for that last-minute price search<br> because you can compare all prices easily!"</h4>
+			</div>
+		</div>
+
+		<div class="row callout">
+			<div class="col-sm text-center px-4">
+				<div class="circular-landscape mb-4">
+					<img src="../dist/img/IMG_7852.jpg" class="d-block" alt="...">
+				</div>
+				<h2 class="callout-title">Search the best prices nationwide</h2>
+				<p class="callout-text text-muted">Access liquor prices from 100's retailers all over New Zealand.</p>
+			</div>
+			<div class="col-sm text-center px-4">
+				<div class="circular-landscape mb-4">
+					<img src="../dist/img/IMG_7852.jpg" class="d-block" alt="...">
+				</div>
+				<h2 class="callout-title">All in best deals in one place</h2>
+				<p class="callout-text text-muted">Compare prices on all your favourite drinks &amp; brands.</p>
+			</div>
+			<div class="col-sm text-center px-4">
+				<div class="circular-landscape mb-4">
+					<img src="../dist/img/IMG_7852.jpg" class="d-block" alt="...">
+				</div>
+				<h2 class="callout-title">Save time and save $$$</h2>
+				<p class="callout-text text-muted">Save heaps using LIPS to find &amp; buy the best liquor deals.</p>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<!-- Footer -->
+<footer id="lps-footer" class="footer py-5">
+	<div class="container">
+		<div class="row text-white">
+			<div class="col-sm text-md-center pb-5">
+				<h4 class="title-bold">&ldquo; We don't serve you 'how hum', every day prices &rdquo;</h4>
+			</div>
+		</div>
+		<div class="row text-white">
+			<div class="col-sm-4">
+				<p>LIPS search engine provides the best advertised liquor prices anywhere in New Zealand.</p>
+				<p>LIPS database is compiled by recording advertised liquor prices from newspapers, circulars, mailers and email offers from leading retailers nationwide. </p>
+			</div>
+			<div class="col-sm">
+				<h5 class="footer-info-title">About Us</h5>
+				<ul class="list-unstyled">
+					<li><a href="#">About LIPS</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Newsletter</a></li>
+				</ul>
+			</div>
+			<div class="col-sm">
+				<h5 class="footer-info-title">For Retailers</h5>
+				<ul class="list-unstyled">
+					<li><a href="#">Sell on LIPS</a></li>
+					<li><a href="#">Advertise</a></li>
+				</ul>
+			</div>
+			<div class="col-sm">
+				<h5 class="footer-info-title">Social</h5>
+				<ul class="list-inline list-unstyled list-social">
+					<li class="list-inline-item">
+						<a href="#">
+							<span class="social-icon icon-facebook" title="Facebook"></span>
+							<span class="sr-only">Facebook</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#">
+							<span class="social-icon icon-twitter"></span>
+							<span class="sr-only">Twitter</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#">
+							<span class="social-icon icon-mail"></span>
+							<span class="sr-only">Twitter</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row text-secondary py-2">
+			<div class="col-sm">
+				<small>&copy; Copyright - 2005 Liquor Information Pricing Services Limited (LIPS). All rights reserved  | <a href="#">Terms &amp; Conditions</a>  |  <a href="#">Privacy Policy</a>  |  <a href="#">back to top</a></small>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- Scripts -->
+
+<!-- Bootstrap Scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+<script src="../dist/js/bootstrap.min.js"></script>
+
+<!-- Vendor Scripts -->
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+<script src="../dist/js/grid.js"></script>
+<script>
+	$(function() {
+		Grid.init();
+	});
+</script>
+ -->
+<!-- END: Scripts -->
 
 </body>
 </html>
