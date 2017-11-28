@@ -1,0 +1,282 @@
+// Variables
+// =============================================
+
+// typography
+$font-weight-normal: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+
+// greys
+$shade-1: #231f20;
+
+// primary colours
+$brand-primary: #E81617; // Red
+
+// secondary colours
+$highlight: #f0efda;
+
+// ui colours
+$white: #fff;
+$brand-facebook: #3b5998;
+$brand-twitter: #1da1f2;
+
+// radius
+$br-round: 50%;
+$btn-pill: 44px;
+
+
+// Typography
+// =============================================
+
+h1, h2, .title-bold {
+	font-weight: $font-weight-600;
+}
+
+h3, h4, h5, h6 {
+	font-weight: $font-weight-500;
+}
+
+
+// Header
+// =============================================
+
+.nav-info {
+	background-color: $brand-primary;
+	color: $white;
+	font-size: 12px;
+
+	.nav-spacer {
+		margin-right: 14px;
+	}
+
+	.list-inline-item:not(:last-child) {
+		@extend .nav-spacer;
+	}
+
+	a {
+		color: $white;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.icon {
+		margin-left: 4px;
+	}
+
+}
+
+.nav-main {
+	position: relative;
+	background-color: $shade-1;
+}
+
+.logo {
+	display: block;
+	width: 110px;
+	height: 110px;
+	line-height: 110px;
+	text-align: center;
+	background-color: $white;
+	border-radius: $br-round;
+	z-index: 100;
+}
+
+@media (min-width: 768px) {
+
+	.nav-main {
+		height: 70px;
+	}
+
+	.logo {
+		position: absolute;
+		top: -40px;
+		width: 130px;
+		height: 130px;
+		line-height: 130px;
+	}
+}
+
+
+// Footer
+// =============================================
+
+.footer {
+	background-color: $shade-1;
+	
+	.footer-info-title {
+		margin-bottom: 1rem;
+		font-weight: $font-weight-normal;
+		font-size: 18px;
+	}
+	
+	li {
+		margin-bottom: 0.5rem;
+	}
+
+	a {
+		color: $gray-600;
+		&:hover {
+			color: $gray-500;
+			text-decoration: none;
+		}
+	}
+}
+
+.list-social {
+
+	.list-inline-item:not(:last-child) {
+		margin-right: 0.5rem;
+	}
+}
+
+
+// Hero Sections
+// =============================================
+
+.hero {
+	position: relative;
+
+	img {
+		width: 100%;
+	}
+}
+
+.hero-title {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: $font-weight-600;
+}
+
+.hero-subtitle {
+	width: 60%;
+	margin: auto;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.hero-image {
+	height: 80vh;
+	overflow: hidden;
+
+	&::before {
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
+		content: "";
+		width: 100%;
+		height: 100%;
+		background-image: linear-gradient(rgba($shade-1, 0.4), rgba($shade-1, 0.8));
+	}
+	
+	.hero-content {
+		position: absolute;
+		top: 30%;
+		width: 100%;
+	}
+
+	.hero-title {
+		margin-bottom: 1rem;
+	}
+
+}
+
+.hero-features {
+	background-color: rgba($highlight, 0.2);
+}
+
+
+// Callout Features
+// =============================================
+
+.callout-title {
+	font-size: 20px;
+	font-weight: $font-weight-500;
+	line-height: 30px;
+}
+
+.callout-text {
+	font-size: 17px;
+	line-height: 25px;
+}
+
+
+// Widgets
+// =============================================
+
+// Countdown timer
+
+.timer {
+	margin-top: -84px;
+	width: 400px;
+	background-color: $brand-primary;
+	border-radius: $btn-pill;
+	
+	.list-inline-item:not(:last-child) {
+		margin-right: 1rem;
+	}
+
+	span {
+		display: block;
+	}
+
+	.timer-number {
+		font-size: 32px;
+		font-weight: $font-weight-500;
+		line-height: 34px;
+	}
+
+	.timer-text {
+		font-size: 11px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+
+}
+
+// Social icons
+
+.social-icon {
+	display: inline-block;
+	background: #B19CE4;
+	color: $white;
+	border-radius: $br-round;
+	text-align: center;
+	height: 44px;
+	width: 44px;
+	line-height: 44px !important;
+	font-size: 1.5rem;
+	
+	&.icon-facebook {
+		background-color: $brand-facebook;
+	}
+
+	&.icon-twitter {
+		background-color: $brand-twitter;
+	}
+
+	&.icon-mail {
+		background-color: $brand-primary;
+	}
+}
+
+
+// Utilities
+// =============================================
+
+// Circular images
+
+.circular-landscape {
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	
+	img {
+		width: auto;
+		height: 100%;
+		margin-left: -50px;
+	}
+}
