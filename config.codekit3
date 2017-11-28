@@ -26,6 +26,47 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/dist\/fonts\/icomoon.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/fonts\/icomoon.eot",
+		"oF": 0
+		},
+	"\/dist\/fonts\/icomoon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/fonts\/icomoon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/dist\/fonts\/icomoon.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/fonts\/icomoon.ttf",
+		"oF": 0
+		},
+	"\/dist\/fonts\/icomoon.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/fonts\/icomoon.woff",
+		"oF": 0
+		},
+	"\/dist\/img\/IMG_7852.jpg": {
+		"ft": 16384,
+		"iS": 126871,
+		"oA": 0,
+		"oAP": "\/dist\/img\/IMG_7852.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/dist\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -33,567 +74,42 @@
 		"oAP": "\/dist\/index.html",
 		"oF": 0
 		},
+	"\/dist\/js\/bootstrap.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/dist\/js\/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/dist\/js\/grid.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/dist\/js\/grid-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/dist\/js\/modernizr.custom.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/dist\/js\/modernizr.custom-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/dist\/index.html",
 		"oF": 3
-		},
-	"\/js\/.eslintrc.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/js\/.eslintrc-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/js\/dist\/alert.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/dist\/alert-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/dist\/alert.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/dist\/alert.js.map",
-		"oF": 0
-		},
-	"\/js\/dist\/button.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/dist\/button-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/dist\/button.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/dist\/button.js.map",
-		"oF": 0
-		},
-	"\/js\/dist\/carousel.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/dist\/carousel-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/dist\/carousel.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/dist\/carousel.js.map",
-		"oF": 0
-		},
-	"\/js\/dist\/collapse.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/dist\/collapse-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/dist\/collapse.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/dist\/collapse.js.map",
-		"oF": 0
-		},
-	"\/js\/dist\/dropdown.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/dist\/dropdown-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/dist\/dropdown.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/dist\/dropdown.js.map",
-		"oF": 0
-		},
-	"\/js\/dist\/index.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/dist\/index-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/dist\/index.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/dist\/index.js.map",
-		"oF": 0
-		},
-	"\/js\/dist\/modal.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/dist\/modal-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/dist\/modal.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/dist\/modal.js.map",
-		"oF": 0
-		},
-	"\/js\/dist\/popover.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/dist\/popover-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/dist\/popover.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/dist\/popover.js.map",
-		"oF": 0
-		},
-	"\/js\/dist\/scrollspy.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/dist\/scrollspy-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/dist\/scrollspy.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/dist\/scrollspy.js.map",
-		"oF": 0
-		},
-	"\/js\/dist\/tab.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/dist\/tab-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/dist\/tab.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/dist\/tab.js.map",
-		"oF": 0
-		},
-	"\/js\/dist\/tooltip.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/dist\/tooltip-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/dist\/tooltip.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/dist\/tooltip.js.map",
-		"oF": 0
-		},
-	"\/js\/dist\/util.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/dist\/util-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/dist\/util.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/dist\/util.js.map",
-		"oF": 0
-		},
-	"\/js\/src\/alert.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/src\/alert-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/src\/button.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/src\/button-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/src\/carousel.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/src\/carousel-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/src\/collapse.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/src\/collapse-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/src\/dropdown.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/src\/dropdown-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/src\/index.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/src\/index-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/src\/modal.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/src\/modal-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/src\/popover.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/src\/popover-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/src\/scrollspy.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/src\/scrollspy-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/src\/tab.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/src\/tab-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/src\/tooltip.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/src\/tooltip-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/src\/util.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/src\/util-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/tests\/.eslintrc.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/js\/tests\/.eslintrc-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/js\/tests\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/tests\/index.html",
-		"oF": 0
-		},
-	"\/js\/tests\/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/js\/tests\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/js\/tests\/unit\/alert.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/tests\/unit\/alert-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/tests\/unit\/button.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/tests\/unit\/button-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/tests\/unit\/carousel.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/tests\/unit\/carousel-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/tests\/unit\/collapse.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/tests\/unit\/collapse-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/tests\/unit\/dropdown.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/tests\/unit\/dropdown-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/tests\/unit\/modal.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/tests\/unit\/modal-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/tests\/unit\/popover.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/tests\/unit\/popover-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/tests\/unit\/scrollspy.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/tests\/unit\/scrollspy-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/tests\/unit\/tab.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/tests\/unit\/tab-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/tests\/unit\/tooltip.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/tests\/unit\/tooltip-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/tests\/vendor\/qunit.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/js\/tests\/vendor\/qunit-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/js\/tests\/vendor\/qunit.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/tests\/vendor\/qunit-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/tests\/visual\/alert.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/tests\/visual\/alert.html",
-		"oF": 0
-		},
-	"\/js\/tests\/visual\/button.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/tests\/visual\/button.html",
-		"oF": 0
-		},
-	"\/js\/tests\/visual\/carousel.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/tests\/visual\/carousel.html",
-		"oF": 0
-		},
-	"\/js\/tests\/visual\/collapse.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/tests\/visual\/collapse.html",
-		"oF": 0
-		},
-	"\/js\/tests\/visual\/dropdown.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/tests\/visual\/dropdown.html",
-		"oF": 0
-		},
-	"\/js\/tests\/visual\/modal.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/tests\/visual\/modal.html",
-		"oF": 0
-		},
-	"\/js\/tests\/visual\/popover.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/tests\/visual\/popover.html",
-		"oF": 0
-		},
-	"\/js\/tests\/visual\/scrollspy.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/tests\/visual\/scrollspy.html",
-		"oF": 0
-		},
-	"\/js\/tests\/visual\/tab.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/tests\/visual\/tab.html",
-		"oF": 0
-		},
-	"\/js\/tests\/visual\/tooltip.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/js\/tests\/visual\/tooltip.html",
-		"oF": 0
 		},
 	"\/lips_liquor.sublime-project": {
 		"cB": 0,
@@ -634,6 +150,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/_alert.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_app.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_app.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -764,6 +293,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/_dropdown.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_fonts.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1080,6 +622,29 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/_vendor.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_vendor.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/bootstrap-grid.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/scss\/bootstrap-grid-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/scss\/bootstrap-grid.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1092,6 +657,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/scss\/bootstrap-reboot.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/scss\/bootstrap-reboot-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/scss\/bootstrap-reboot.scss": {
 		"aP": 0,
@@ -1116,7 +691,7 @@
 		"oA": 0,
 		"oAP": "\/dist\/css\/bootstrap.css",
 		"oF": 2,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/scss\/mixins\/_alert.scss": {
