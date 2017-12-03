@@ -57,6 +57,16 @@
 		"oAP": "\/dist\/fonts\/icomoon.woff",
 		"oF": 0
 		},
+	"\/dist\/img\/bottle.jpg": {
+		"ft": 16384,
+		"iS": 12140,
+		"oA": 0,
+		"oAP": "\/dist\/img\/bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/dist\/img\/IMG_7852.jpg": {
 		"ft": 16384,
 		"iS": 126871,
@@ -66,6 +76,16 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/dist\/img\/lips-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/img\/lips-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/dist\/index.html": {
 		"cB": 0,
