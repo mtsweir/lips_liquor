@@ -15,6 +15,21 @@
 <body>
 <a class="sr-only sr-only-focusable" href="#lps-content">Skip to main content</a>
 
+<!-- Pushy Menu -->
+<nav class="pushy pushy-right">
+	<div class="pushy-content">
+		<div class="mobile-sidebar text-white p-4">
+			some content
+		</div>
+	</div>
+</nav>
+
+<!-- Site Overlay -->
+<div class="site-overlay"></div>
+
+<!-- Pushy Container -->
+<div id="container">
+
 <!-- Header -->
 <header id="lps-header" class="header">
 	<!-- Nav Info -->
@@ -101,6 +116,7 @@
 <section id="lps-hero" class="hero hero-image text-center text-white" style="background-image: url(../dist/img/lips-home-hero.jpg);">
 	<div class="hero-section">
 		<h1 class="hero-title">Find the best advertised prices, hottest liquor deals, anywhere in New Zealand.</h1>
+		<button class="menu-btn pushy-open-right">&#9776; Right Menu</button>
 	</div>
 </section>
 
@@ -346,6 +362,8 @@
 	</div>
 </footer>
 
+</div>
+
 <!-- Scripts -->
 
 <!-- Bootstrap Scripts -->
@@ -355,7 +373,7 @@
 <script src="../dist/js/bootstrap.min.js"></script>
 
 <!-- Vendor Scripts -->
-
+<script src="../dist/js/pushy.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
 <script src="../dist/js/grid.js"></script>
 <script>
