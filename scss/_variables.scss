@@ -7,6 +7,8 @@
 // LIPS Brand
 //
 
+$brand-primary: #d0232b !default; // Red
+$brand-secondary: #231f20; // Dark grey
 $brand-2: #77B204 !default; // Buttons
 $brand-3: #428BCA !default; // Links
 
@@ -68,7 +70,7 @@ $colors: map-merge((
   "gray-dark":  $gray-800
 ), $colors);
 
-$primary:       $brand-2 !default;
+$primary:       $brand-secondary !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
