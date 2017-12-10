@@ -311,11 +311,12 @@ h3, h4, h5, h6 {
 	margin-left: auto;
 	margin-right: auto;
 	font-weight: $font-weight-600;
+	max-width: 1000px;
 }
 
 h1.hero-title {
 	font-size: 36px;
-	line-height: 44px;
+	line-height: 48px;
 }
 
 .hero-title {
