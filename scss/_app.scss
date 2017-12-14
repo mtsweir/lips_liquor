@@ -499,6 +499,44 @@ h1.hero-title {
 }
 
 
+// Search Results
+// =============================================
+// Use !important to override default rules.
+
+.search-result-item {
+	flex: 0 0 100% !important;
+	border-radius: 0;
+	margin-bottom: -1px !important;
+
+	& + .search-result-item {
+		border: $card-border-width solid $card-border-color !important;
+	}
+
+	.price {
+		color: $brand-primary;
+	}
+
+}
+
+.search-result-main {
+	width: 100%;
+	vertical-align: top;
+}
+
+.result-availability {
+	white-space: nowrap;
+}
+
+.result-item-expiry {
+	color: $brand-primary;
+}
+
+.btn-buy-now {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+
 // Components
 // =============================================
 
