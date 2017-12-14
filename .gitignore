@@ -44,14 +44,13 @@ Thumbs.db
 sublime-gulp.log
 
 # Sass Cache remove
-.sass-cache/
+.sass-cache
 
 # Ignore CSS & Map File
 *.css
 *.map
 
-# Ignore any node_modules folder
-node_modules/
-
-# Ignore Boostrap4 test folder
-**/js/tests
+# Ignore any build folders
+dist
+node_modules
+bower_components
