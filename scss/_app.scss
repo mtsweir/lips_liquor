@@ -68,6 +68,15 @@ $radius-pill: 44px;
 	transition: $args;
 }
 
+// Transforms
+@mixin transform($args...) {
+	-webkit-transform: $args;
+	-moz-transform: $args;
+	-ms-transform: $args;
+	-o-transform: $args;
+	transform: $args;
+}
+
 // Box Shadow
 // https://css-tricks.com/snippets/sass/material-shadows-mixin/
 @function top-shadow($depth) {
