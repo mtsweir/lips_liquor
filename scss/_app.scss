@@ -216,7 +216,7 @@ h3, h4, h5, h6 {
 	.logo {
 		margin: 0;
 		left: auto;
-		top: -25px;
+		top: -15px;
 		width: 90px;
 		height: 90px;
 	}
@@ -226,7 +226,17 @@ h3, h4, h5, h6 {
 @media (min-width: 990px) {
 
 	.logo {
-		top: -40px;
+		top: -15px;
+		width: 100px;
+		height: 100px;
+	}
+
+}
+
+@media (min-width: 1200px) {
+
+	.logo {
+		top: -25px;
 		width: 120px;
 		height: 120px;
 	}
@@ -286,7 +296,8 @@ h3, h4, h5, h6 {
 // Footer
 // =============================================
 
-.footer {
+.lps-footer {
+	padding: 2rem 0;
 	background-color: $shade-1;
 	
 	.footer-info-title {
@@ -313,6 +324,28 @@ h3, h4, h5, h6 {
 	.list-inline-item:not(:last-child) {
 		margin-right: 0.5rem;
 	}
+}
+
+// Global Sections
+// =============================================
+// UI consists of three main sections.
+
+
+// Main content
+.lps-content {
+	margin: 3rem 0;
+}
+
+@media (min-width: 1200px) {
+
+	.lps-content {
+		margin: 5rem 0;
+	}
+
+}
+
+.lps-content-home {
+	margin-top: 0;
 }
 
 
@@ -392,7 +425,7 @@ h1.hero-title {
 
 // hero background highlights
 
-.hero-highlight {
+.section-highlight {
 	background-color: rgba($highlight, 0.2);
 }
 
@@ -567,8 +600,11 @@ h1.hero-title {
 
 // Countdown timer
 
+.row-timer {
+	margin-top: -35px;
+}
+
 .timer {
-	margin-top: -84px;
 	padding: 10px 10px 5px;
 	max-width: 400px;
 	min-width: 280px;
@@ -600,11 +636,52 @@ h1.hero-title {
 }
 
 
+// Button toggle search
+// =============================================
+// z-index set to avoid logo overlap.
+
+.btn-search-toggle {
+	position: relative;
+	display: block;
+	padding: 10px 0;
+	color: $white;
+	text-align: center;
+	z-index: 999;
+
+	&:hover {
+		color: $white;
+		text-decoration: none;
+	}
+	
+	// arrow down - initial state
+	&::after {
+		display: inline-block;
+		content: "\e5db";
+		@include transition(all 0.25s ease-in-out);
+		
+	}
+
+	// arrow up
+	&.expanded::after {
+		@include transform(rotate(180deg));
+	}
+	
+	// arrow down
+	&.collapsed::after {
+		@include transform(rotate(0));
+	}
+
+}
+
+
 // Social icons
+// =============================================
+
+// Rounded icons
 
 .social-icon {
 	display: inline-block;
-	background: #B19CE4;
+	background: $brand-primary;
 	color: $white;
 	border-radius: $radius-round;
 	text-align: center;
@@ -621,9 +698,6 @@ h1.hero-title {
 		background-color: $brand-twitter;
 	}
 
-	&.icon-mail {
-		background-color: $brand-primary;
-	}
 }
 
 
