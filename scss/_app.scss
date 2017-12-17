@@ -570,7 +570,22 @@ h1.hero-title {
 }
 
 .result-item-expiry {
+	padding-left: 0.25rem;
 	color: $brand-primary;
+
+	&::before {
+		display: inline-block;
+		content: "\e88b";
+	}
+}
+
+@media screen and (max-width: 340px) {
+
+	.result-item-expiry {
+		display: block;
+		padding: 0;
+	}
+
 }
 
 .btn-buy-now {
