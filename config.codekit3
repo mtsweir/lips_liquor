@@ -161,6 +161,13 @@
 		"oAP": "\/dist\/lip-liquor-prototype.zip",
 		"oF": 0
 		},
+	"\/dist\/search.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/search.html",
+		"oF": 0
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1368,6 +1375,14 @@
 		"oA": 2,
 		"oAP": "\/dist\/search.html",
 		"oF": 3
+		},
+	"\/selection.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/selection-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		}
 	},
 "hooks": [
