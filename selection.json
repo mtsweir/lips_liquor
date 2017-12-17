@@ -54,9 +54,9 @@
         {}
       ],
       "properties": {
-        "order": 1,
+        "order": 11,
         "id": 0,
-        "name": "facebook, brand, social",
+        "name": "facebook",
         "prevSize": 32,
         "code": 59648
       },
@@ -90,6 +90,33 @@
       "setIdx": 1,
       "setId": 1,
       "iconIdx": 46
+    },
+    {
+      "icon": {
+        "paths": [
+          "M512 490l170-170v-150h-340v150zM682 704l-170-170-170 170v150h340v-150zM256 86h512v256l-170 170 170 170v256h-512v-256l170-170-170-170v-256z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "hourglass_empty"
+        ],
+        "defaultCode": 59531,
+        "grid": 24
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "hourglass_empty",
+        "id": 389,
+        "order": 10,
+        "prevSize": 24,
+        "code": 59531,
+        "name": "hourglass_empty"
+      },
+      "setIdx": 1,
+      "setId": 1,
+      "iconIdx": 389
     },
     {
       "icon": {
@@ -132,7 +159,9 @@
     "fontPref": {
       "prefix": "icon-",
       "metadata": {
-        "fontFamily": "icomoon"
+        "fontFamily": "icomoon",
+        "majorVersion": 1,
+        "minorVersion": 0
       },
       "metrics": {
         "emSize": 1024,

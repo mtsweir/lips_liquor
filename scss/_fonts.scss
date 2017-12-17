@@ -10,7 +10,8 @@
 }
 
 [class^="icon-"], [class*=" icon-"],
-.btn-search-toggle::after {
+.btn-search-toggle::after,
+.result-item-expiry::before {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -36,4 +37,7 @@
 }
 .icon-mail:before {
   content: "\e0e1"; // icon-mail_outline
+}
+.icon-hourglass:before {
+  content: "\e88b"; // icon-hourglass_empty
 }
