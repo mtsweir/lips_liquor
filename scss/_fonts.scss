@@ -1,15 +1,16 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?cuvjv1');
-  src:  url('../fonts/icomoon.eot?cuvjv1#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?cuvjv1') format('truetype'),
-    url('../fonts/icomoon.woff?cuvjv1') format('woff'),
-    url('../fonts/icomoon.svg?cuvjv1#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?1agymh');
+  src:  url('../fonts/icomoon.eot?1agymh#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?1agymh') format('truetype'),
+    url('../fonts/icomoon.woff?1agymh') format('woff'),
+    url('../fonts/icomoon.svg?1agymh#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"],
+.btn-search-toggle::after {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -25,11 +26,14 @@
 }
 
 .icon-twitter:before {
-  content: "\e902";
-}
-.icon-facebook:before {
   content: "\e901";
 }
+.icon-facebook:before {
+  content: "\e900";
+}
+.icon-arrow:before {
+  content: "\e5db"; // icon-arrow_downward
+}
 .icon-mail:before {
-  content: "\e900"; //icon-envelope-o
+  content: "\e0e1"; // icon-mail_outline
 }
