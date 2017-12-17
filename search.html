@@ -20,7 +20,7 @@
 	<div class="pushy-content">
 		<div class="mobile-sidebar pt-4 p-3">
 			<div class="mobile-sidebar-header">
-				<h5 class="text-muted">Menu</h5>
+				<h5 class="text-muted">Browse</h5>
 				<button type="button" class="btn-menu-toggle close pushy-link" aria-label="Close">
 					<div aria-hidden="true">
 						<i class="menu-line"></i>
@@ -30,7 +30,7 @@
 				</button>
 			</div>
 			<ul class="list-unstyled m-0 p-0">
-				<li>
+				<!--<li>
 					<form>
 						<div class="form-row">
 							<div class="form-group col-sm-6">
@@ -78,13 +78,14 @@
 							</div>
 						</div>
 					</form>
-				</li>
+				</li>-->
 				<li><hr></li>
 				<li>
 					<a href="#">Grab a deal</a>
 				</li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Contact</a></li>
+				<li><a href="#">Newsletter</a></li>
 				<li aria-hidden="true"><hr></li>
 				<li>
 					<div class="d-table">
@@ -125,7 +126,7 @@
 <div id="container">
 
 <!-- Header -->
-<header id="lps-header" class="header">
+<header id="lps-header" class="lps-header">
 	<!-- Nav Info -->
 	<div class="nav-info py-2 px-3">
 		<div class="container">
@@ -151,7 +152,7 @@
 		</div>
 	</div>
 	<!-- Nav Main -->
-	<div class="nav-main pt-3 d-none d-md-block">
+	<div class="nav-main d-nones d-md-blocks">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-2">
@@ -160,7 +161,11 @@
 					</div>
 				</div>
 				<div class="col-md-10">
-					<form>
+  				
+  				<a class="btn-search-toggle d-md-none" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Liquor Price Search </a>
+
+					<div class="collapse d-md-block" id="collapseExample">
+					<form class="pt-3">
 						<div class="form-row">
 							<div class="form-group col-sm-6 col-md">
 								<label class="sr-only" for="selectFilter_Alcoholtype">Alcohol type</label>
@@ -207,6 +212,8 @@
 							</div>
 						</div>
 					</form>
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -214,7 +221,7 @@
 </header>
 
 <!-- Content -->
-<section id="lps-content" class="content py-5 my-5">
+<section id="lps-content" class="lps-content">
 	<div class="container">
 
 		<div class="row">
@@ -267,11 +274,11 @@
 </section>
 
 <!-- Footer -->
-<footer id="lps-footer" class="footer py-3">
+<footer id="lps-footer" class="lps-footer">
 	<div class="container">
 		<div class="row text-white">
-			<div class="col-sm text-md-center hero-text">
-				<h4 class="title-bold">&ldquo; We don't serve you 'ho-hum', every day prices &rdquo;</h4>
+			<div class="col-sm text-md-center">
+				<h4 class="title-bold my-3">&ldquo; We don't serve you 'ho-hum', every day prices &rdquo;</h4>
 			</div>
 		</div>
 		<div class="row text-white">
@@ -343,6 +350,9 @@
 <script>
 	$(function() {
 		Grid.init();
+	});
+	$('.btn-search-toggle').on('click', function(e){
+		$(this).toggleClass('expanded');
 	});
 </script>
 
