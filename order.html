@@ -30,56 +30,6 @@
 				</button>
 			</div>
 			<ul class="list-unstyled m-0 p-0">
-				<!--<li>
-					<form>
-						<div class="form-row">
-							<div class="form-group col-sm-6">
-								<label class="sr-only" for="selectFilter_Alcoholtype">Alcohol type</label>
-								<select class="form-control form-control-sm custom-select" id="exampleFormControlSelect2">
-									<option>Alcohol type</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
-								</select>
-							</div>
-							<div class="form-group col-sm-6">
-								<label class="sr-only" for="selectFilter_Drinktype">Drink type</label>
-								<select class="form-control form-control-sm custom-select" id="exampleFormControlSelect2">
-									<option>Drink type</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
-								</select>
-							</div>
-							<div class="form-group col-sm-6">
-								<label class="sr-only" for="selectFilter_Brand">Brand</label>
-								<select class="form-control form-control-sm custom-select" id="exampleFormControlSelect2">
-									<option>Brand</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
-								</select>
-							</div>
-							<div class="form-group col-sm-6">
-								<label class="sr-only" for="selectFilter_Retailer">Retailer</label>
-								<select class="form-control form-control-sm custom-select" id="exampleFormControlSelect2">
-									<option>Retailer</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
-								</select>
-							</div>
-							<div class="form-group col-sm-12">
-								<button type="submit" class="btn lips-btn-secondary btn-block btn-sm">Search</button>
-							</div>
-						</div>
-					</form>
-				</li>-->
-				<li><hr></li>
 				<li>
 					<a href="#">Grab a deal</a>
 				</li>
@@ -161,8 +111,8 @@
 					</div>
 				</div>
 				<div class="col-md-10">
-  				
-  				<a class="btn-search-toggle d-md-none" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Liquor Price Search </a>
+					
+					<a class="btn-search-toggle d-md-none" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Liquor Price Search </a>
 
 					<div class="collapse d-md-block" id="collapseExample">
 					<form class="pt-3">
@@ -226,14 +176,16 @@
 
 		<div class="row mb-4">
 			<div class="col-sm">
-				<h1 class="h4 text-muted">Your Order</h1>
-				<p>Simply complete your order &amp; contact details below.</p>
+				<h1 class="h3 text-muted">Your Order</h1>
 			</div>
 		</div>
+		
+		<form id="order-form" name="order-form" action="/Order/Confirm" method="POST" role="form" novalidate="novalidate">
 
 		<div class="row">
-			<div class="col-sm-9">
-				<table class="lps-table table table-responsivexxx">
+			<div class="col-lg-8">
+
+				<table class="lps-table-cart table table-responsive">
 					<thead>
 						<tr>
 							<th>Product</th>
@@ -244,157 +196,232 @@
 						</tr>
 					</thead>
 					<tbody>
-
 						<tr>
-							<td class="order-description">
-								<b>Clearwater Cove Rose 2017</b>
-								<small class="d-block">6 x 750mls</small>
-								<small class="text-muted">(Delivery Included)</small>
-							</td>
+							<th class="cart-item">
+								<span class="cart-item-title d-block">Clearwater Cove Rose 2017</span>
+								<span class="cart-item-size small font-weight-normal text-muted d-block">6 x 750mls</span>
+								<span class="cart-item-info small font-weight-normal d-block">Delivery Included</span>
+							</th>
 							<td>
-								<div class="input-group input-group-increment">
-									<span class="input-group-btn">
-										<button type="button" class="btn-shape btn-shape--minus quantity-left-minus" aria-label="Add" data-type="minus" data-field="">
-											<div aria-hidden="Minus">
-												<i class="menu-line"></i>
-												<i class="menu-line"></i>
-											</div>
-										</button>
-									</span>
-									<input type="text" id="quantity" name="quantity" class="quantity form-control input-number" value="0" min="1" max="100">
-									<span class="input-group-btn">
-										<button type="button" class="btn-shape btn-shape--plus quantity-right-plus" aria-label="Add" data-type="plus" data-field="">
-											<div aria-hidden="true">
-												<i class="menu-line"></i>
-												<i class="menu-line"></i>
-											</div>
-										</button>
-									</span>
+								<div class="">
+									<input type="number" id="qty-row-one" name="qty-row-one" class="form-control cart-input-qty" value="0">
 								</div>
 							</td>
 							<td class="text-right">$71.94</td>
 							<td class="text-right">$0.00</td>
 							<td class="text-right">$0.00</td>
 						</tr>
-
 						<tr>
-							<td class="order-description">
-								<b>Clearwater Cove Rose 2017</b>
-								<small class="d-block">6 x 750mls</small>
-								<small class="text-muted">(Delivery Included)</small>
-							</td>
+							<th class="cart-item">
+								<span class="cart-item-title d-block">Babydoll Marlborough Sauvignon Blanc 2017</span>
+								<span class="cart-item-size small font-weight-normal text-muted d-block">6 x 750mls</span>
+								<span class="cart-item-info small font-weight-normal d-block">Trophy Winner</span>
+							</th>
 							<td>
-								<div class="input-group input-group-increment">
-									<span class="input-group-btn">
-										<button type="button" class="btn-shape btn-shape--minus quantity-left-minus" aria-label="Add" data-type="minus" data-field="">
-											<div aria-hidden="Minus">
-												<i class="menu-line"></i>
-												<i class="menu-line"></i>
-											</div>
-										</button>
-									</span>
-									<input type="text" id="quantity" name="quantity" class="quantity form-control input-number" value="0" min="1" max="100">
-									<span class="input-group-btn">
-										<button type="button" class="btn-shape btn-shape--plus quantity-right-plus" aria-label="Add" data-type="plus" data-field="">
-											<div aria-hidden="true">
-												<i class="menu-line"></i>
-												<i class="menu-line"></i>
-											</div>
-										</button>
-									</span>
+								<div class="">
+									<input type="number" id="qty-row-two" name="qty-row-two" class="form-control cart-input-qty" value="0">
 								</div>
 							</td>
-							<td class="text-right">$71.94</td>
+							<td class="text-right">$89.94</td>
 							<td class="text-right">$0.00</td>
 							<td class="text-right">$0.00</td>
 						</tr>
-
 						<tr>
-							<td class="order-description">
-								<b>Clearwater Cove Rose 2017</b>
-								<small class="d-block">6 x 750mls</small>
-								<small class="text-muted">(Delivery Included)</small>
-							</td>
+							<th class="cart-item">
+								<span class="cart-item-title d-block">Crossroads Chardonnay 2015</span>
+								<span class="cart-item-size small font-weight-normal text-muted d-block">6 x 750mls</span>
+								<span class="cart-item-info small font-weight-normal d-block">Delivery Included</span>
+							</th>
 							<td>
-								<div class="input-group input-group-increment">
-									<span class="input-group-btn">
-										<button type="button" class="btn-shape btn-shape--minus quantity-left-minus" aria-label="Add" data-type="minus" data-field="">
-											<div aria-hidden="Minus">
-												<i class="menu-line"></i>
-												<i class="menu-line"></i>
-											</div>
-										</button>
-									</span>
-									<input type="text" id="quantity" name="quantity" class="quantity form-control input-number" value="0" min="1" max="100">
-									<span class="input-group-btn">
-										<button type="button" class="btn-shape btn-shape--plus quantity-right-plus" aria-label="Add" data-type="plus" data-field="">
-											<div aria-hidden="true">
-												<i class="menu-line"></i>
-												<i class="menu-line"></i>
-											</div>
-										</button>
-									</span>
+								<div class="">
+									<input type="number" id="qty-row-three" name="qty-row-three" class="form-control cart-input-qty" value="0">
 								</div>
 							</td>
-							<td class="text-right">$71.94</td>
+							<td class="text-right">$89.94</td>
 							<td class="text-right">$0.00</td>
 							<td class="text-right">$0.00</td>
 						</tr>
-
 						<tr>
-							<td class="order-description">
-								<b>Clearwater Cove Rose 2017</b>
-								<small class="d-block">6 x 750mls</small>
-								<small class="text-muted">(Delivery Included)</small>
-							</td>
+							<th class="cart-item">
+								<span class="cart-item-title d-block">Bach Brewing Duskrider Red IPA</span>
+								<span class="cart-item-size small font-weight-normal text-muted d-block">12 x 330mls</span>
+								<span class="cart-item-info small font-weight-normal d-block">Export Clearance</span>
+							</th>
 							<td>
-								<div class="input-group input-group-increment">
-									<span class="input-group-btn">
-										<button type="button" class="btn-shape btn-shape--minus quantity-left-minus" aria-label="Add" data-type="minus" data-field="">
-											<div aria-hidden="Minus">
-												<i class="menu-line"></i>
-												<i class="menu-line"></i>
-											</div>
-										</button>
-									</span>
-									<input type="text" id="quantity" name="quantity" class="quantity form-control input-number" value="0" min="1" max="100">
-									<span class="input-group-btn">
-										<button type="button" class="btn-shape btn-shape--plus quantity-right-plus" aria-label="Add" data-type="plus" data-field="">
-											<div aria-hidden="true">
-												<i class="menu-line"></i>
-												<i class="menu-line"></i>
-											</div>
-										</button>
-									</span>
+								<div class="">
+									<input type="number" id="qty-row-four" name="qty-row-four" class="form-control cart-input-qty" value="0">
 								</div>
 							</td>
-							<td class="text-right">$71.94</td>
+							<td class="text-right">$89.94</td>
 							<td class="text-right">$0.00</td>
 							<td class="text-right">$0.00</td>
 						</tr>
 					</tbody>
-					<tfoot class="order-summary">
-						<tr>
-							<th class="bg-light"><small>* LIPSale price includes GST</small></th>
-							<th class="bg-light text-right" colspan="4">Total (inc freight) &nbsp; $0.00</th>
-						</tr>
-					</tfoot>
 				</table>
+
 			</div>
-			<div class="col-sm-3">
-				<div class="p-3 mb-2 bg-light">
-					<p><small> Please allow up to 5 x working days for delivery.</small></p>
-					<p><small>Note: Sale prices include GST. Minimum orders and freight charges apply. Offers available to NZ residents only.</small></p>
+			<div class="col-lg-4 cart-summary">
+
+				<h4 class="cart-summary-title">Order Summary</h4>
+				<div class="cart-summary-total">
+					<p>Total <small>(inc freight):</small> <span class="float-right">$723.28</span></p>
 				</div>
+				<p class="text-muted"><small><b>* Includes GST. Minimum orders and freight charges apply</b>. Please allow up to 5 working days for delivery. Offers available to NZ residents only.</small></p>
+
 			</div>
 		</div>
 
-		<div class="row my-5">
+		<div class="row mt-3 mb-4">
 			<div class="col-sm">
-				<h2 class="h4 text-muted">Payment Details</h1>
-				<p>Simply complete your order &amp; contact details below.</p>
+				<hr>
+				<h2 class="h3 text-muted pt-3">Payment Details</h2>
 			</div>
 		</div>
+
+		<div class="row">
+			<div class="col-lg-8">
+
+				<h3 class="h5 cart-summary-title">1. Delivery Details</h3>
+				<div class="cart-form-details">
+
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label class="sr-only" for="input_name">Full Name</label>
+								<input type="text" class="form-control" id="input_name" placeholder="Full Name">
+								<span id="input_name-error" class="invalid-feedback">Full Name is required.</span>
+							</div>
+						</div>						
+						<div class="col-md-6">
+							<div class="form-group">
+								<label class="sr-only" for="input_email">Email</label>
+								<input type="email" class="form-control" id="input_email" placeholder="Email">
+								<span id="input_name-email" class="invalid-feedback">Valid Email Address is required.</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label class="sr-only" for="input_address">Address</label>
+								<input type="text" class="form-control" id="input_address" placeholder="Address">
+								<span id="input_address-error" class="invalid-feedback">Postal Address is required.</span>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label class="sr-only" for="input_suburb">Suburb</label>
+								<input type="text" class="form-control" id="input_suburb" placeholder="Suburb">
+								<span id="input_suburb-error" class="invalid-feedback">Suburb is required.</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label class="sr-only" for="input_city">City</label>
+								<input type="text" class="form-control" id="input_city" placeholder="City">
+								<span id="input_city-error" class="invalid-feedback">City is required.</span>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label class="sr-only" for="input_phone">Phone</label>
+								<input type="tel" class="form-control" id="input_phone" placeholder="Phone">
+								<span id="input_phone-error" class="invalid-feedback">Phone Number is required.</span>
+							</div>
+						</div>
+					</div>
+					
+					<div class="form-group">
+				    <label for="text_special_delivery_details">Delivery Instructions <small class="form-hint-inline text-muted">Optional</small></label>
+				    <textarea class="form-control" id="text_special_delivery_details" rows="4"></textarea>
+				  </div>
+
+				</div>
+
+			</div>
+			<div class="col-lg-4">
+				
+				<h3 class="h5 cart-summary-title">2. Payment Method</h3>
+				<div class="cart-form-details cart-form-details-payment">
+
+					<div class="form-group">
+						<label class="sr-only" for="input_card_number">Card Number</label>
+						<input type="text" class="form-control" id="input_card_number" placeholder="Card Number">
+					</div>
+
+					<div class="form-group row">
+						<div class="col">
+							<label class="sr-only" for="Month">Expiry Month</label>
+					    <select class="form-control" id="Month" name="Month">
+	              <option value="01">01</option>
+	              <option value="02">02</option>
+	              <option value="03">03</option>
+	              <option value="04">04</option>
+	              <option value="05">05</option>
+	              <option value="06">06</option>
+	              <option value="07">07</option>
+	              <option value="08">08</option>
+	              <option value="09">09</option>
+	              <option value="10">10</option>
+	              <option value="11">11</option>
+	              <option value="12">12</option>
+	            </select>
+	          </div>
+          	<div class="col">
+          		<label class="sr-only" for="Year">Expiry Year</label>
+	            <select class="form-control" id="Year" name="Year">
+	              <option value="2015">2015</option>
+	              <option value="2016">2016</option>
+	              <option value="2017">2017</option>
+	              <option value="2018">2018</option>
+	              <option value="2019">2019</option>
+	              <option value="2020">2020</option>
+	              <option value="2021">2021</option>
+	              <option value="2022">2022</option>
+	              <option value="2023">2023</option>
+	              <option value="2024">2024</option>
+	              <option value="2025">2025</option>
+	            </select>
+				  	</div>
+				  </div>
+					
+					<div class="form-group">
+						<div class="form-check form-check-inline">
+						  <input class="form-check-input" type="radio" name="input_card_type" id="input_mastercard" value="Mastercard">
+						  <label class="form-check-label" for="input_mastercard">Mastercard</label>
+						</div>
+						<div class="form-check form-check-inline">
+						  <input class="form-check-input" type="radio" name="input_card_type" id="input_visa" value="Visa">
+						  <label class="form-check-label" for="input_visa">Visa</label>
+						</div>
+					</div>
+					
+					<div class="form-group">
+					  <div class="form-check form-check-inline">
+						  <input class="form-check-input" type="checkbox" id="input_confirm_age" value="Age">
+						  <label class="form-check-label small" for="input_confirm_age">I am 18 years of age or older.</label>
+						</div>
+					</div>
+
+					<button type="submit" class="btn lips-btn lips-btn-primary btn-expanded">Place Order</button>
+
+					<small class="text-muted mt-3 d-block">By clicking "Submit Order", you agree to be bound by the <a href="/Terms">terms and conditions</a> of this website. All prices include GST.</small>
+
+					<div class="text-center mt-4 d-block">
+						<img src="https://www.lips.co.nz/images/logos/rapidssl.gif" alt="Secured by Rapid SSL">
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+		
+		</form>
 
 	</div>
 </section>
@@ -404,7 +431,7 @@
 	<div class="container">
 		<div class="row text-white">
 			<div class="col-sm text-md-center">
-				<h4 class="title-bold my-3">&ldquo; We don't serve you 'ho-hum', every day prices &rdquo;</h4>
+				<h4 class="title-bold mt-3 mb-5">&ldquo; We don't serve you 'ho-hum', every day prices &rdquo;</h4>
 			</div>
 		</div>
 		<div class="row text-white">
@@ -483,35 +510,6 @@
 	$('.btn-search-toggle').on('click', function(e){
 		$(this).toggleClass('expanded');
 	});
-
-	// Order Form - button increment
-	var quantitiy=0;
-   $('.quantity-right-plus').click(function(e){
-        
-    // Stop acting like a button
-    e.preventDefault();
-    // Get the field name
-    var quantity = parseInt($('.quantity').val());
-    
-    // If is not undefined
-    $('.quantity').val(quantity + 1);
-    // Increment
-        
-  });
-
-   $('.quantity-left-minus').click(function(e){
-    // Stop acting like a button
-    e.preventDefault();
-    // Get the field name
-    var quantity = parseInt($('.quantity').val());
-    
-    // If is not undefined
-  
-    // Increment
-    if(quantity>0){
-    $('.quantity').val(quantity - 1);
-    }
-  });
 </script>
 
 <!-- END: Scripts -->
