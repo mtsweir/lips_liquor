@@ -1390,6 +1390,13 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/terms.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/terms.html",
+		"oF": 0
 		}
 	},
 "hooks": [
