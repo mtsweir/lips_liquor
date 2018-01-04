@@ -721,6 +721,31 @@ h1.hero-title {
 	max-width: 300px;
 }
 
+// Blockquotes
+
+.blockquote-testimonial {
+	padding: 2rem 0;
+	border: solid $card-border-color;
+	border-width: 2px 0 0;
+}
+
+.blockquote-img {
+	margin-bottom: 1rem;
+	max-width: 150px;
+}
+
+.blockquote-content {
+	overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+
+	.blockquote-img {
+		margin-right: 2rem;
+		float: left;
+	}
+
+}
 
 // CSS Shapes
 
