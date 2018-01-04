@@ -1398,6 +1398,13 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/sell.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sell.html",
+		"oF": 0
+		},
 	"\/terms.html": {
 		"cB": 0,
 		"ft": 8192,
