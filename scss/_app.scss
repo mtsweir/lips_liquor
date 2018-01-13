@@ -107,12 +107,27 @@ $radius-pill: 44px;
 // Typography
 // =============================================
 
-h1, h2, .title-bold {
+h2, h3, h4, h5, h6, .title-bold {
 	font-weight: $font-weight-600;
 }
 
-h3, h4, h5, h6 {
-	font-weight: $font-weight-500;
+h1 strong {
+	color: $brand-primary;
+}
+
+p a {
+	text-decoration: underline;
+}
+
+// Content
+
+.page-intro-title {
+	font-size: 46px;
+	line-height: 42px;
+}
+
+.page-intro {
+	margin-bottom: 4rem;
 }
 
 
@@ -292,6 +307,9 @@ h3, h4, h5, h6 {
 	width: 20px;
 }
 
+.lps-header .lips-btn-secondary {
+	padding: 0.25rem 0.5rem;
+}
 
 // Footer
 // =============================================
@@ -332,6 +350,7 @@ h3, h4, h5, h6 {
 
 
 // Main content
+
 .lps-content {
 	margin: 3rem 0;
 }
@@ -346,6 +365,25 @@ h3, h4, h5, h6 {
 
 .lps-content-home {
 	margin-top: 0;
+}
+
+// Sidebar content
+
+.sidebar-title {
+	color: rgba($shade-2, 0.6);
+	font-size: 1.25rem;
+	font-weight: $font-weight-normal;
+}
+
+.contact-details {
+	margin-top: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+	
+	.contact-details {
+		margin-top: 0;
+	}
 }
 
 
@@ -439,9 +477,81 @@ h1.hero-title {
 
 @media only screen and (min-width: 768px) {
 
-	.hero-title,
+	.hero-title {
+		width: 40%;
+	}
+
 	.hero-subtitle {
-		width: 60%;
+		width: 50%;
+	}
+}
+
+// Hero Sections
+
+.section-price-search {
+	padding: 120px 0;
+	background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 280px;
+}
+
+// Hero Icons
+
+.center-list {
+	width: 100%;
+	text-align: center;
+
+	li {
+		display: inline-block;
+		margin-left: 20px;
+	}
+
+	li:first-child {
+  	margin-left: 0!important;
+	}
+}
+
+.lips-icons li {
+	vertical-align: top;
+	display: inline-block;
+
+	.lips-icon {
+		color: $brand-primary;
+		font-size: 50px;
+	}
+
+}
+
+.lips-icons-block {
+	padding-bottom: 2rem;;
+	border-bottom: 4px dashed $gray-300;
+}
+
+.icon-with-text .label {
+	margin-top: 8px;
+	font-family: $font-family-sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: $font-weight-600;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+
+	.center-list {
+		li {
+			margin-left: 80px;
+		}
+	}
+
+	.lips-icons li {
+		.lips-icon {
+			font-size: 70px;
+		}
+
 	}
 
 }
@@ -558,6 +668,10 @@ h1.hero-title {
 		color: $brand-primary;
 	}
 
+	.btn {
+		padding: 0.375rem 1.5rem;
+	}
+
 }
 
 .search-result-main {
@@ -575,7 +689,8 @@ h1.hero-title {
 
 	&::before {
 		display: inline-block;
-		content: "\e88b";
+		margin-right: 4px;
+		content: "\e8e8"; // icon-timer
 	}
 }
 
@@ -588,15 +703,9 @@ h1.hero-title {
 
 }
 
-.btn-buy-now {
-	padding-left: 2rem;
-	padding-right: 2rem;
-}
-
 
 // Content
 // =============================================
-
 
 .lps-table-cart {
 
@@ -669,16 +778,41 @@ h1.hero-title {
 
 .cart-form-details-payment {
 	padding: 1.5rem;
-	background-color: lighten($brand-secondary, 82);
+	background-color: $gray-100;
 }
 
 
 // Components
 // =============================================
 
-// Forms - validation
-// Displays a left border to better indicate error section
-// within the the form.
+// Forms
+
+label {
+	font-weight: $font-weight-600;
+}
+
+.form {
+	padding: 40px;
+	background-color: #ece9e2;
+
+	h2 {
+		margin-bottom: 32px;
+		padding-bottom: 24px;
+		font-weight: $font-weight-normal;
+		border-bottom: 1px solid $white;
+	}
+
+	h6 {
+		margin-top: 1.75rem;
+		margin-bottom: 1rem;
+	}
+
+	.form-summary {
+		margin-bottom: 0;
+		padding-top: 24px;
+		border-top: 1px solid $white;
+	}
+}
 
 .has-error {
 	padding-left: 1rem;
@@ -698,8 +832,13 @@ h1.hero-title {
 
 }
 
-
 // Buttons
+
+.btn {
+	padding: 0.75rem 1.5rem;
+	font-weight: $font-weight-600;
+	text-transform: uppercase;
+}
 
 .lips-btn {
 	color: $white;
@@ -725,8 +864,8 @@ h1.hero-title {
 
 .blockquote-testimonial {
 	padding: 2rem 0;
-	border: solid $card-border-color;
-	border-width: 2px 0 0;
+	border: solid $gray-300;
+	border-width: 1px 0 0;
 }
 
 .blockquote-img {
@@ -743,6 +882,38 @@ h1.hero-title {
 	.blockquote-img {
 		margin-right: 2rem;
 		float: left;
+	}
+
+}
+
+// Lists
+
+.info-list {
+	
+	dt, dd {
+		margin: 0 0 14px;
+		padding: 0 0 14px;
+	}
+	dt {
+		float: left;
+    width: 90px;
+    color: rgba($shade-2, 0.6);
+    font-weight: 300;
+    text-align: left;
+	}
+
+	dd {
+		padding-left: 100px;
+    border-bottom: solid 1px $gray-200;
+    &:last-child {
+    	margin-bottom: 0;
+			padding-bottom: 0;
+    	border-bottom: 0;
+    }
+	}
+
+	i {
+		margin-right: 6px;
 	}
 
 }

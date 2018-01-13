@@ -40,37 +40,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dist\/fonts\/icomoon.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/dist\/fonts\/icomoon.eot",
-		"oF": 0
-		},
-	"\/dist\/fonts\/icomoon.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/fonts\/icomoon.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/fonts\/icomoon.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/dist\/fonts\/icomoon.ttf",
-		"oF": 0
-		},
-	"\/dist\/fonts\/icomoon.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/dist\/fonts\/icomoon.woff",
-		"oF": 0
-		},
 	"\/dist\/img\/bottle.jpg": {
 		"ft": 16384,
 		"iS": 12140,
@@ -101,6 +70,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/dist\/img\/lips-join-hero.jpg": {
+		"ft": 16384,
+		"iS": 438993,
+		"oA": 0,
+		"oAP": "\/dist\/img\/lips-join-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/dist\/img\/lips-logo-glyph.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -120,6 +99,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/dist\/img\/lips-sell-hero.jpg": {
+		"ft": 16384,
+		"iS": 331795,
+		"oA": 0,
+		"oAP": "\/dist\/img\/lips-sell-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/dist\/index.html": {
 		"cB": 0,
@@ -188,6 +177,13 @@
 		"oA": 2,
 		"oAP": "\/dist\/index.html",
 		"oF": 3
+		},
+	"\/join.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/join.html",
+		"oF": 0
 		},
 	"\/lips_liquor.sublime-project": {
 		"cB": 0,
