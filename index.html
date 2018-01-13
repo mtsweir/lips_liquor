@@ -161,8 +161,8 @@
 					</div>
 				</div>
 				<div class="col-md-10">
-  				
-  				<a class="btn-search-toggle d-md-none" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Liquor Price Search </a>
+					
+					<a class="btn-search-toggle d-md-none" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Liquor Price Search </a>
 
 					<div class="collapse d-md-block" id="collapseExample">
 					<form class="pt-3">
@@ -224,7 +224,10 @@
 <section id="lps-hero" class="hero hero-image text-center text-white" style="background-image: url(../dist/img/lips-home-hero.jpg);">
 	<div class="hero-section">
 		<h1 class="hero-title">Find the best advertised prices, hottest liquor deals, anywhere in New Zealand.</h1>
-		<button class="menu-btn pushy-open-right">&#9776; Right Menu</button>
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subscribe_popup">
+			Launch demo modal
+		</button>
+		<button class="btn btn-primary menu-btn pushy-open-right">&#9776; Right Menu</button>
 	</div>
 </section>
 
@@ -472,7 +475,93 @@
 
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="subscribe_popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content lips-modal lips-modal-confirm">
+			<div class="modal-body lps-modal-content">
+			      	
+      	<h5 class="modal-title" id="exampleModalLabel">Welcome to LIPS</h5>
+				<p class="modal-intro">Search FREE and compare 1000’s of advertised liquor prices across 100’s of retailers nationwide. Join now and receive only the best drinks deals &amp; pricing alerts on your favourite brands.</p>
+
+				<form class="modal-form" action="">
+
+					<div class="form-group">
+						<label class="sr-only" for="input_subscriber_name">Full name</label>
+						<input type="text" class="form-control" id="input_subscriber_name" placeholder="Full name">
+					</div>
+
+					<div class="form-group">
+						<label class="sr-only" for="input_subscriber_email">Email address</label>
+						<input type="email" class="form-control" id="input_subscriber_email" placeholder="Email address">
+					</div>
+
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" id="checkAgeConfirm" value="Age">
+						<label class="form-check-label small" for="checkAgeConfirm" onchange="enableJoin(this)">I am 18 years of age or older and agree to LIPS's <a href="/Terms">terms of use</a> and <a href="/Privacy">privacy policy.</a></label>
+					</div>
+
+					<button id="button_join" type="button" class="btn btn-primary btn-block" data-backdrop="static" data-keyboard="false" data-dismiss="modal" aria-hidden="true" onclick="join()">Continue</button>
+
+				</form>
+
+				<p class="text-center modal-age-confirm"><a aria-hidden="true" data-dismiss="modal" href="#" onclick="alreadyMember()">I'm already on the list</a></p>
+
+			</div>
+		</div>
+	</div>
+</div>
+
 <!-- Scripts -->
+
+<!-- Modal - user subscription validation -->
+<script>
+
+    //<![CDATA[
+
+    function setCookie() {
+        // var expiration = 1000 * 60; // 60 seconds
+        var expiration = 1000 * 60 * 60 * 24 * 15; // 15 days
+        var expires = new Date((new Date()).valueOf() + expiration);
+        document.cookie = "confirmed=true;expires=" + expires.toUTCString();
+    }
+
+    function join() {       
+        setCookie();
+        subscribe($("#input_subscriber_name").val(), $("#input_subscriber_email").val());
+        alert("Thank you " + $("#input_subscriber_name").val() + ". You are now subscribed.");
+    }
+
+    function alreadyMember() {
+        setCookie();
+        $('#subscribe_popup').modal('hide');
+        $('body').removeClass('modal-open');
+        $('.modal-backdrop').remove();
+    }
+
+    function enableJoin(arg) {
+        if ($("#input_subscriber_name").val().length > 0 && $("#input_subscriber_email").val().length > 0) {
+            if (!arg.checked) {
+                document.getElementById("button_join").disabled = true;
+            } else {
+                document.getElementById("button_join").disabled = false;
+            }
+        } else {
+            document.getElementById("checkAgeConfirm").checked = false;
+            alert("Please enter valid name and email details before confirming age.");
+        }
+    }
+
+    $("document").ready(function () {
+        // load the overlay
+        if (document.cookie.indexOf('confirmed=true') == -1) {
+            $('#subscribe_popup').modal();
+        }
+    });
+
+    //]]>
+
+</script>
 
 <!-- Bootstrap Scripts -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
