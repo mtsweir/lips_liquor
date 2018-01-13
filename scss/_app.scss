@@ -475,14 +475,14 @@ h1.hero-title {
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
 
 	.hero-title {
-		width: 40%;
+		width: 50%;
 	}
 
 	.hero-subtitle {
-		width: 50%;
+		width: 60%;
 	}
 }
 
@@ -814,6 +814,14 @@ label {
 	}
 }
 
+.form-check {
+	padding-left: 1.25rem;
+}
+
+.form-check-label {
+	padding-left: 6px;
+}
+
 .has-error {
 	padding-left: 1rem;
 	border-left: 4px solid $brand-primary;
@@ -1086,6 +1094,48 @@ label {
 	.link-text-secondary {
 		font-size: 0.75rem;
 	}
+}
+
+// Modals
+// =============================================
+
+.lips-modal {
+	.btn {
+		margin-top: 20px;
+	}
+}
+
+.lips-modal-confirm {
+	color: $white;
+	padding-bottom: 150px;
+	background-color: #151515;
+	background-image: url('../img/lips-modal-bg.jpg');
+	background-position: center bottom;
+	background-size: cover;
+
+	a {
+		color: $white;
+		text-decoration: underline;
+		white-space: nowrap;
+	}
+}
+
+.lps-modal-content {
+	padding: 50px 50px 20px;
+}
+
+.modal-title,
+.modal-intro {
+	text-align: center;
+}
+
+.modal-title {
+	font-size: 30px;
+}
+
+.modal-form {
+	padding-top: 10px;
+	padding-bottom: 30px;
 }
 
 
