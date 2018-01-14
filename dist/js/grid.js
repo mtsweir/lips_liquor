@@ -263,9 +263,9 @@ var Grid = (function() {
 			saveItemInfo();
 			getWinSize();
 			var preview = $.data( this, 'preview' );
-			if( typeof preview != 'undefined' ) {
-				hidePreview();
-			}
+			// if( typeof preview != 'undefined' ) {
+			// 	hidePreview();
+			// }
 
 		} );
 
@@ -347,7 +347,7 @@ var Grid = (function() {
 			this.$description = $( '<p></p>' );
 			var detailAppends = [this.$title, this.$description];
 			if (settings.showVisitButton === true) {
-				this.$href = $( '<a href="#">Visit website</a>' );
+				this.$href = $( '<a href="#">Buy Now</a>' );
 				detailAppends.push(this.$href);
 			}
 			this.$details = $( '<div class="og-details"></div>' ).append(detailAppends);
