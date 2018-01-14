@@ -1,19 +1,23 @@
-// Thumbnail Grid with Expanding Preview
-// https://tympanus.net/Tutorials/ThumbnailGridExpandingPreview/
-
 .og-grid {
-	list-style: none;
-	padding: 20px 0;
-	margin: 0 auto;
-	text-align: center;
+	//list-style: none;
+	//padding: 0;
+	//margin: 0 auto;
+	//text-align: center;
 	width: 100%;
 }
 
 .og-grid li {
 	display: inline-block;
-	margin: 10px 5px 0 5px;
+	margin-right: 1%;
+	width: 24.2%;
 	vertical-align: top;
-	height: 250px;
+	//height: 280px;
+	max-height: 800px;
+	float: left;
+
+	&:last-child {
+		margin-right: 0;
+	}
 }
 
 .og-grid li > a,
@@ -22,7 +26,15 @@
 	outline: none;
 	display: block;
 	position: relative;
+	color: $shade-1;
+	cursor: pointer;
+
+	&:hover {
+		text-decoration: none;
+	}
 }
+
+// Arrow pointer
 
 .og-grid li.og-expanded > a::after {
 	top: auto;
@@ -32,32 +44,43 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: #ddd;
+	border-bottom-color: $brand-primary;
 	border-width: 15px;
 	left: 50%;
 	margin: -20px 0 0 -15px;
 }
 
-// Expanded content
-
 .og-expander {
-	position: absolute;
-	background: #ddd;
-	top: auto;
-	left: 0;
-	width: 100%;
+	// position: absolute;
+	// background: #ddd;
+	// top: auto;
+	// left: 0;
+	// width: 100%;
+	// margin-top: 10px;
+	// text-align: left;
+	// height: 0;
+	// overflow: hidden;
+	
+	background: $white;
+	border: 2px solid $brand-primary;
+	left: 15px;
+	right: 15px;
 	margin-top: 10px;
-	text-align: left;
-	height: 0;
 	overflow: hidden;
+	position: absolute;
+	z-index: 99;
+	text-align: left;
+	top: auto;
+	//width: 92%;
+	height: auto!important;
 }
 
 .og-expander-inner {
-	padding: 50px 30px;
-	height: 100%;
+	//padding: 50px 30px;
+	//height: 100%;
+	padding: 5px;
+	height: auto;
 }
-
-// Close icon
 
 .og-close {
 	position: absolute;
@@ -92,8 +115,6 @@
 	background: #333;
 }
 
-// The wrappers for the image and for the details
-
 .og-fullimg,
 .og-details {
 	width: 50%;
@@ -103,10 +124,14 @@
 	position: relative;
 }
 
-// something
-
 .og-details {
-	padding: 0 40px 0 20px;
+	//padding: 0 40px 0 20px;
+	width: 95%;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	padding: 40px;
 }
 
 .og-fullimg {
@@ -119,47 +144,46 @@
 	max-width: 100%;
 }
 
-// text and link
-
 .og-details h3 {
-	font-weight: 300;
-	font-size: 52px;
-	padding: 40px 0 10px;
-	margin-bottom: 10px;
+	font-weight: $font-weight-normal;
+	// font-weight: 300;
+	// font-size: 52px;
+	// padding: 40px 0 10px;
+	// margin-bottom: 10px;
 }
 
 .og-details p {
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 22px;
-	color: #999;
+	// font-weight: 400;
+	// font-size: 16px;
+	// line-height: 22px;
+	// color: #999;
 }
 
 .og-details a {
-	font-weight: 700;
-	font-size: 16px;
-	color: #333;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	padding: 10px 20px;
-	border: 3px solid #333;
-	display: inline-block;
-	margin: 30px 0 0;
-	outline: none;
+	// font-weight: 700;
+	// font-size: 16px;
+	// color: #333;
+	// text-transform: uppercase;
+	// letter-spacing: 2px;
+	// padding: 10px 20px;
+	// border: 3px solid #333;
+	// display: inline-block;
+	// margin: 30px 0 0;
+	// outline: none;
+	@extend .btn;
+	@extend .lips-btn-secondary;
 }
 
-.og-details a::before {
-	content: '\2192';
-	display: inline-block;
-	margin-right: 10px;
-}
+// .og-details a::before {
+// 	content: '\2192';
+// 	display: inline-block;
+// 	margin-right: 10px;
+// }
 
-.og-details a:hover {
-	border-color: #999;
-	color: #999;
-}
-
-// loader
+// .og-details a:hover {
+// 	border-color: #999;
+// 	color: #999;
+// }
 
 .og-loading {
 	width: 20px;
@@ -196,15 +220,15 @@
 
 @media screen and (max-width: 830px) {
 
-	.og-expander h3 { font-size: 32px; }
-	.og-expander p { font-size: 13px; }
-	.og-expander a { font-size: 12px; }
+	// .og-expander h3 { font-size: 32px; }
+	// .og-expander p { font-size: 13px; }
+	// .og-expander a { font-size: 12px; }
 
 }
 
 @media screen and (max-width: 650px) {
 
-	.og-fullimg { display: none; }
+	//.og-fullimg { display: none; }
 	.og-details { float: none; width: 100%; }
 	
 }
