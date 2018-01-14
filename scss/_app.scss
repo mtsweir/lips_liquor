@@ -544,12 +544,8 @@ p a {
 }
 
 
-// Promotions
+// Home page promotions
 // =============================================
-
-.promo {
-	margin-bottom: 1rem;
-}
 
 .promo-item {
 	@include transition(border-color 0.15s ease-in-out);
