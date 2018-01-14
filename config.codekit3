@@ -71,6 +71,36 @@
 		"oAP": "\/dist\/fonts\/icomoon.woff",
 		"oF": 0
 		},
+	"\/dist\/img\/1.jpg": {
+		"ft": 16384,
+		"iS": 11439,
+		"oA": 0,
+		"oAP": "\/dist\/img\/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/2.jpg": {
+		"ft": 16384,
+		"iS": 16397,
+		"oA": 0,
+		"oAP": "\/dist\/img\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/3.jpg": {
+		"ft": 16384,
+		"iS": 27725,
+		"oA": 0,
+		"oAP": "\/dist\/img\/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/dist\/img\/bottle.jpg": {
 		"ft": 16384,
 		"iS": 12140,
@@ -218,13 +248,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/dist\/lip-liquor-prototype.zip": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/dist\/lip-liquor-prototype.zip",
-		"oF": 0
-		},
 	"\/dist\/search.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -282,6 +305,13 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/privacy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/privacy.html",
+		"oF": 0
 		},
 	"\/scss\/_alert.scss": {
 		"aP": 0,
@@ -1421,7 +1451,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/vendor\/_nav-grid.scss": {
+	"\/scss\/vendor\/_grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1429,7 +1459,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/vendor\/_nav-grid.css",
+		"oAP": "\/scss\/vendor\/_grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
