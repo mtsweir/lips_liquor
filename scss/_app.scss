@@ -122,16 +122,27 @@ p a {
 // Content
 
 .page-intro-title {
-	font-size: 46px;
+	font-size: 32px;
 	line-height: 42px;
 }
 
 .page-intro {
-	margin-bottom: 4rem;
+	margin-bottom: 2rem;
 }
 
 .page-intro-home {
 	margin: 3rem 0 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+
+	.page-intro-title {
+		font-size: 46px;
+	}
+
+	.page-intro {
+		margin-bottom: 2rem;
+	}
 }
 
 
@@ -396,18 +407,17 @@ p a {
 
 .hero-section {
 	position: relative;
-}
-
-.hero-title,
-.hero-subtitle {
-	width: 75%;
+	display: inline-block;
+	max-width: 80%;
 }
 
 // h1, h2 content
 
 .hero-title {
 	display: inline-block;
+	font-size: 32px;
 	font-weight: $font-weight-600;
+	line-height: 1.4;
 }
 
 // p content
@@ -422,7 +432,7 @@ p a {
 
 .hero-image {
 	position: relative;
-	padding: 10rem 0;
+	padding: 5rem 0;
 	overflow: hidden;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -446,19 +456,22 @@ p a {
 	background-color: rgba($highlight, 0.2);
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 768px) {
+	
+	.hero-title {
+		font-size: 46px;
+	}
 
 	.hero-image {
-		padding: 5rem 0;
+		padding: 10rem 0;
 	}
 
 }
 
 @media only screen and (min-width: 1024px) {
 
-	.hero-title,
-	.hero-subtitle {
-		width: 60%;
+	.hero-section {
+		max-width: 600px;
 	}
 
 }
@@ -651,7 +664,7 @@ p a {
 }
 
 .result-item-expiry {
-	padding-left: 0.25rem;
+	display: block;
 	color: $brand-primary;
 
 	&::before {
@@ -666,6 +679,14 @@ p a {
 	.result-item-expiry {
 		display: block;
 		padding: 0;
+	}
+
+}
+
+@media screen and (min-width: 600px) {
+
+	.result-item-expiry {
+		display: inline-block;
 	}
 
 }
@@ -759,7 +780,7 @@ label {
 }
 
 .form {
-	padding: 40px;
+	padding: 20px;
 	background-color: $gray-200;
 
 	h2 {
@@ -803,6 +824,14 @@ label {
 		margin-top: 0.5rem;
 		font-weight: $font-weight-600;
 		line-height: 1;
+	}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+	.form {
+		padding: 40px;
 	}
 
 }
@@ -1073,6 +1102,7 @@ label {
 .lips-modal-confirm {
 	color: $white;
 	padding-bottom: 150px;
+	padding-bottom: 80px;
 	background-color: #151515;
 	background-image: url('../img/lips-modal-bg.jpg');
 	background-position: center bottom;
@@ -1087,6 +1117,7 @@ label {
 
 .lps-modal-content {
 	padding: 50px 50px 20px;
+	padding: 20px;
 }
 
 .modal-title,
@@ -1101,6 +1132,18 @@ label {
 .modal-form {
 	padding-top: 10px;
 	padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+	
+	.lips-modal-confirm {
+		padding-bottom: 150px;
+	}
+
+	.lps-modal-content {
+		padding: 50px 50px 20px;
+	}
+
 }
 
 
