@@ -50,7 +50,6 @@
 .icon-close:before {
 	content: "\e935"; // icon-cross2
 }
-
 .icon-binoculars:before {
 	content: "\e6a9";
 }
@@ -62,4 +61,10 @@
 }
 .icon-facebook:before {
 	content: "\e900";
+}
+
+// UI
+
+.btn-search-toggle::after {
+	content: "\e942";
 }
