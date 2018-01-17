@@ -40,6 +40,37 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/dist\/fonts\/icomoon.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/fonts\/icomoon.eot",
+		"oF": 0
+		},
+	"\/dist\/fonts\/icomoon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/fonts\/icomoon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/dist\/fonts\/icomoon.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/fonts\/icomoon.ttf",
+		"oF": 0
+		},
+	"\/dist\/fonts\/icomoon.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/fonts\/icomoon.woff",
+		"oF": 0
+		},
 	"\/dist\/img\/1.jpg": {
 		"ft": 16384,
 		"iS": 11439,
