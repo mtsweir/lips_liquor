@@ -78,7 +78,7 @@
 .og-expander-inner {
 	//padding: 50px 30px;
 	//height: 100%;
-	padding: 5px;
+	//padding: 5px;
 	height: auto;
 }
 
@@ -89,7 +89,7 @@
 	top: 20px;
 	right: 20px;
 	cursor: pointer;
-	z-index: 100;
+	z-index: 200;
 }
 
 .og-close::before,
@@ -132,7 +132,7 @@
 	height: 100%;
 	overflow: hidden;
 	position: relative;
-	padding: 40px;
+	padding: 20px;
 }
 
 .og-fullimg {
@@ -247,6 +247,10 @@
 			}
 
 		}
+	}
+
+	.og-details {
+		padding: 40px;
 	}
 
 }
