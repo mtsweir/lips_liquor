@@ -7,7 +7,7 @@
 		"uuidString": "56A48BF6-5479-452F-8834-60E15CA9D6E0"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26261",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -873,7 +873,7 @@
 		"oA": 0,
 		"oAP": "\/dist\/css\/bootstrap.css",
 		"oF": 2,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/mixins\/_alert.scss": {
@@ -2096,6 +2096,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
