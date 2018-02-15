@@ -26,9 +26,9 @@
 	"\/contact.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/contact.html",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/dist\/contact.html",
+		"oF": 3
 		},
 	"\/dist\/css\/bootstrap.css": {
 		"aP": 1,
@@ -275,9 +275,9 @@
 	"\/join.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/join.html",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/dist\/join.html",
+		"oF": 3
 		},
 	"\/lips_liquor.sublime-project": {
 		"cB": 0,
@@ -296,9 +296,9 @@
 	"\/order.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/order.html",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/dist\/order.html",
+		"oF": 3
 		},
 	"\/package-lock.json": {
 		"ft": 524288,
@@ -319,9 +319,9 @@
 	"\/privacy.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/privacy.html",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/dist\/privacy.html",
+		"oF": 3
 		},
 	"\/scss\/_alert.scss": {
 		"aP": 0,
@@ -1505,16 +1505,16 @@
 	"\/sell.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sell.html",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/dist\/sell.html",
+		"oF": 3
 		},
 	"\/terms.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/terms.html",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/dist\/terms.html",
+		"oF": 3
 		}
 	},
 "hooks": [
