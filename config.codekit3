@@ -19,9 +19,9 @@
 	"\/about.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/about.html",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/dist\/about.html",
+		"oF": 3
 		},
 	"\/contact.html": {
 		"cB": 0,
@@ -29,6 +29,20 @@
 		"oA": 2,
 		"oAP": "\/dist\/contact.html",
 		"oF": 3
+		},
+	"\/dist\/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/about.html",
+		"oF": 0
+		},
+	"\/dist\/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/contact.html",
+		"oF": 0
 		},
 	"\/dist\/css\/bootstrap.css": {
 		"aP": 1,
@@ -71,36 +85,6 @@
 		"oAP": "\/dist\/fonts\/icomoon.woff",
 		"oF": 0
 		},
-	"\/dist\/img\/1.jpg": {
-		"ft": 16384,
-		"iS": 11439,
-		"oA": 0,
-		"oAP": "\/dist\/img\/1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/img\/2.jpg": {
-		"ft": 16384,
-		"iS": 16397,
-		"oA": 0,
-		"oAP": "\/dist\/img\/2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/img\/3.jpg": {
-		"ft": 16384,
-		"iS": 27725,
-		"oA": 0,
-		"oAP": "\/dist\/img\/3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/dist\/img\/bottle.jpg": {
 		"ft": 16384,
 		"iS": 12140,
@@ -110,6 +94,93 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/dist\/img\/favicon\/apple-touch-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 11140,
+		"oA": 0,
+		"oAP": "\/dist\/img\/favicon\/apple-touch-icon-120x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/img\/favicon\/apple-touch-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 15167,
+		"oA": 0,
+		"oAP": "\/dist\/img\/favicon\/apple-touch-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/img\/favicon\/apple-touch-icon-180x180.png": {
+		"ft": 32768,
+		"iS": 18607,
+		"oA": 0,
+		"oAP": "\/dist\/img\/favicon\/apple-touch-icon-180x180.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/img\/favicon\/apple-touch-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 6280,
+		"oA": 0,
+		"oAP": "\/dist\/img\/favicon\/apple-touch-icon-76x76.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/img\/favicon\/favicon.png": {
+		"ft": 32768,
+		"iS": 1787,
+		"oA": 0,
+		"oAP": "\/dist\/img\/favicon\/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/img\/favicon\/lips-icon-16x16.png": {
+		"ft": 32768,
+		"iS": 695,
+		"oA": 0,
+		"oAP": "\/dist\/img\/favicon\/lips-icon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/img\/favicon\/lips-icon-32x32.png": {
+		"ft": 32768,
+		"iS": 1787,
+		"oA": 0,
+		"oAP": "\/dist\/img\/favicon\/lips-icon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/img\/favicon\/lips-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/img\/favicon\/lips-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/dist\/img\/IMG_7852.jpg": {
 		"ft": 16384,
@@ -121,21 +192,61 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/dist\/img\/lips-home-hero.jpg": {
+	"\/dist\/img\/lips-hero-home-mobile.jpg": {
 		"ft": 16384,
-		"iS": 312984,
+		"iS": 87869,
 		"oA": 0,
-		"oAP": "\/dist\/img\/lips-home-hero.jpg",
+		"oAP": "\/dist\/img\/lips-hero-home-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/img\/lips-join-hero.jpg": {
+	"\/dist\/img\/lips-hero-home.jpg": {
 		"ft": 16384,
-		"iS": 438993,
+		"iS": 261211,
 		"oA": 0,
-		"oAP": "\/dist\/img\/lips-join-hero.jpg",
+		"oAP": "\/dist\/img\/lips-hero-home.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/lips-hero-join-mobile.jpg": {
+		"ft": 16384,
+		"iS": 114394,
+		"oA": 0,
+		"oAP": "\/dist\/img\/lips-hero-join-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/lips-hero-join.jpg": {
+		"ft": 16384,
+		"iS": 230913,
+		"oA": 0,
+		"oAP": "\/dist\/img\/lips-hero-join.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/lips-hero-sell-mobile.jpg": {
+		"ft": 16384,
+		"iS": 90910,
+		"oA": 0,
+		"oAP": "\/dist\/img\/lips-hero-sell-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/lips-hero-sell.jpg": {
+		"ft": 16384,
+		"iS": 123366,
+		"oA": 0,
+		"oAP": "\/dist\/img\/lips-hero-sell.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -161,41 +272,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/lips-modal-bg-2.jpg": {
-		"ft": 16384,
-		"iS": 84311,
-		"oA": 0,
-		"oAP": "\/dist\/img\/lips-modal-bg-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/img\/lips-modal-bg-3.jpg": {
-		"ft": 16384,
-		"iS": 174374,
-		"oA": 0,
-		"oAP": "\/dist\/img\/lips-modal-bg-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/dist\/img\/lips-modal-bg.jpg": {
 		"ft": 16384,
-		"iS": 93994,
+		"iS": 22248,
 		"oA": 0,
 		"oAP": "\/dist\/img\/lips-modal-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/img\/lips-sell-hero.jpg": {
-		"ft": 16384,
-		"iS": 331795,
-		"oA": 0,
-		"oAP": "\/dist\/img\/lips-sell-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -206,6 +287,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/dist\/index.html",
+		"oF": 0
+		},
+	"\/dist\/join.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/join.html",
 		"oF": 0
 		},
 	"\/dist\/js\/bootstrap.min.js": {
@@ -258,11 +346,39 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/dist\/order.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/order.html",
+		"oF": 0
+		},
+	"\/dist\/privacy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/privacy.html",
+		"oF": 0
+		},
 	"\/dist\/search.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/dist\/search.html",
+		"oF": 0
+		},
+	"\/dist\/sell.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/sell.html",
+		"oF": 0
+		},
+	"\/dist\/terms.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/terms.html",
 		"oF": 0
 		},
 	"\/index.html": {
