@@ -448,6 +448,16 @@ p a {
 		background-image: linear-gradient(rgba($shade-1, 0.4), rgba($shade-1, 0.8));
 	}
 
+	&.hero-image--home {
+		background-image: url(../img/lips-hero-home-mobile.jpg);
+	}
+	&.hero-image--sell {
+		background-image: url(../img/lips-hero-sell-mobile.jpg);
+	}
+	&.hero-image--join {
+		background-image: url(../img/lips-hero-join-mobile.jpg);
+	}
+
 }
 
 // hero background highlights
@@ -459,11 +469,22 @@ p a {
 @media only screen and (min-width: 768px) {
 	
 	.hero-title {
-		font-size: 46px;
+		font-size: 44px;
 	}
 
 	.hero-image {
 		padding: 10rem 0;
+
+		&.hero-image--home {
+			background-image: url(../img/lips-hero-home.jpg);
+		}
+		&.hero-image--sell {
+			background-image: url(../img/lips-hero-sell.jpg);
+		}
+		&.hero-image--join {
+			background-image: url(../img/lips-hero-join.jpg);
+		}
+
 	}
 
 }
@@ -570,6 +591,7 @@ p a {
 
 .promo-item {
 	@include transition(border-color 0.15s ease-in-out);
+	border-radius: 0;
 
 	&:hover {
 		border-color: $brand-primary;
@@ -584,7 +606,6 @@ p a {
 	padding: 10px;
 	color: $white;
 	background-color: $shade-1;
-	@include border-radius($radius-xs $radius-xs 0 0);
 }
 
 .promo-img {
@@ -637,11 +658,18 @@ p a {
 
 .search-result-item {
 	flex: 0 0 100% !important;
+	border: 0;
 	border-radius: 0;
 	margin-bottom: -1px !important;
 
+	.card-body {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 	& + .search-result-item {
-		border: $card-border-width solid $card-border-color !important;
+		border: solid $card-border-color;
+		border-width: $card-border-width 0 0;
 	}
 
 	.price {
@@ -785,9 +813,8 @@ label {
 
 	h2 {
 		margin-bottom: 32px;
-		padding-bottom: 24px;
+		font-size: 1.25rem;
 		font-weight: $font-weight-normal;
-		border-bottom: 1px solid $white;
 	}
 
 	h6 {
@@ -797,8 +824,7 @@ label {
 
 	.form-summary {
 		margin-bottom: 0;
-		padding-top: 24px;
-		border-top: 1px solid $white;
+		padding-top: 1rem;
 	}
 }
 
@@ -975,7 +1001,7 @@ label {
 }
 
 .timer {
-	padding: 10px 10px 5px;
+	padding: 10px;
 	max-width: 400px;
 	min-width: 280px;
 	background-color: $brand-primary;
@@ -991,9 +1017,10 @@ label {
 	}
 
 	.timer-number {
-		font-size: 32px;
+		padding: 4px 0;
+		font-size: 1.75rem;
 		font-weight: $font-weight-500;
-		line-height: 34px;
+		line-height: 1;
 	}
 
 	.timer-text {
@@ -1001,6 +1028,17 @@ label {
 		letter-spacing: 1px;
 		line-height: 1;
 		text-transform: uppercase;
+	}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+	.timer {
+
+		.timer-number {
+			font-size: 2rem;
+		}
 	}
 
 }
