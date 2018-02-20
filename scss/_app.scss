@@ -492,7 +492,7 @@ p a {
 @media only screen and (min-width: 1024px) {
 
 	.hero-section {
-		max-width: 600px;
+		max-width: 700px;
 	}
 
 }
@@ -654,71 +654,117 @@ p a {
 
 // Search Results
 // =============================================
-// Use !important to override default rules.
 
-.search-result-item {
-	flex: 0 0 100% !important;
-	border: 0;
-	border-radius: 0;
-	margin-bottom: -1px !important;
+// main search wrapper
 
-	.card-body {
-		padding-left: 0;
-		padding-right: 0;
-	}
-
-	& + .search-result-item {
-		border: solid $card-border-color;
-		border-width: $card-border-width 0 0;
-	}
-
-	.price {
-		color: $brand-primary;
-	}
-
-	.btn {
-		padding: 0.375rem 1.5rem;
-	}
-
+body {
+	height: 1200px;
+}
+.search-result {
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.search-result-main {
+// search row item
+
+.search-row {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 1rem;
 	width: 100%;
-	vertical-align: top;
+	border-bottom: 1px solid $card-border-color;
+
+	&:first-of-type {
+		padding-top: 1rem;
+		border-top: 1px solid $card-border-color;
+	}
+
+	& + .search-row {
+		margin-top: 1rem;
+	}
 }
 
-.result-availability {
-	white-space: nowrap;
+.search-row-item {
+
+	.item-title {
+		font-weight: $font-weight-500;
+	}
+
+	.item-info {
+		display: block;
+		// padding-top: 4px;
+		@extend .text-muted;
+	}
+
+	.item-info-expiry {
+		color: $brand-primary;
+		font-weight: $font-weight-500;
+	}
 }
 
-.result-item-expiry {
-	display: block;
+.search-row-price {
+	// margin-top: 0.5rem;
 	color: $brand-primary;
 
-	&::before {
-		display: inline-block;
-		margin-right: 4px;
-		content: "\e8e8"; // icon-timer
+	.price-title {
+		// font-size: 1.25rem;
+		font-weight: $font-weight-500;
+		small {
+			font-size: 0.8rem;
+		}
 	}
 }
 
-@media screen and (max-width: 340px) {
+.search-row-retailer {
+	// margin: 0.5rem 0 0.75rem;
+	@extend .text-muted;
+	
+	.retailer-title {
+		font-size: 0.8rem;
+	}
 
-	.result-item-expiry {
-		display: block;
-		padding: 0;
+	.retailer-info {
+		padding-top: 5px;
+	}
+}
+
+// .search-row-cta {
+// 	align-self: flex-end;
+// }
+
+.cta-title +	.cta-info {
+	padding-top: 6px;
+}
+
+.search-row-cta .btn {
+	padding: 0.25rem 0.5rem;
+}
+
+.bullet-spacer {
+	padding: 0 0.15rem;
+}
+
+@media only screen and (min-width: 768px) {
+
+	.search-row-item {
+		flex-basis: 40%;
+		padding-right: 1rem;
+	}
+
+	.search-row-price {
+		flex-basis: 20%;
+	}
+
+	.search-row-retailer {
+		flex-basis: 20%;
+	}
+
+	.search-row-cta {
+		align-self: center;
+		margin-left: auto;
 	}
 
 }
-
-@media screen and (min-width: 600px) {
-
-	.result-item-expiry {
-		display: inline-block;
-	}
-
-}
-
 
 // Content
 // =============================================
