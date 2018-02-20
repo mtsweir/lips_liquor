@@ -685,6 +685,8 @@ body {
 }
 
 .search-row-item {
+	flex-basis: 100%;
+	padding-bottom: 1rem;
 
 	.item-title {
 		font-weight: $font-weight-500;
@@ -692,7 +694,6 @@ body {
 
 	.item-info {
 		display: block;
-		// padding-top: 4px;
 		@extend .text-muted;
 	}
 
@@ -703,11 +704,10 @@ body {
 }
 
 .search-row-price {
-	// margin-top: 0.5rem;
+	flex-basis: 45%;
 	color: $brand-primary;
 
 	.price-title {
-		// font-size: 1.25rem;
 		font-weight: $font-weight-500;
 		small {
 			font-size: 0.8rem;
@@ -716,27 +716,31 @@ body {
 }
 
 .search-row-retailer {
-	// margin: 0.5rem 0 0.75rem;
+	flex-basis: 50%;
+	margin-left: auto;
+	padding-left: 5%;
+	border-left: 1px solid #e9ecef;
 	@extend .text-muted;
+	word-break: break-word;
+	overflow-wrap: break-word;
 	
 	.retailer-title {
 		font-size: 0.8rem;
 	}
 
-	.retailer-info {
-		padding-top: 5px;
-	}
 }
 
-// .search-row-cta {
-// 	align-self: flex-end;
-// }
+.search-row-cta {
+	flex-basis: 100%;
+}
 
 .cta-title +	.cta-info {
 	padding-top: 6px;
 }
 
 .search-row-cta .btn {
+	display: block;
+	margin-top: 1rem;
 	padding: 0.25rem 0.5rem;
 }
 
@@ -747,8 +751,43 @@ body {
 @media only screen and (min-width: 768px) {
 
 	.search-row-item {
+		flex-basis: 100%;
+		padding-bottom: 0.5rem;
+	}
+
+	.search-row-price {
+		flex-basis: 40%;
+	}
+
+	.search-row-retailer {
+		flex-basis: 40%;
+		margin-left: inherit;
+		padding-left: 0;
+		border: 0;
+
+		.retailer-info {
+			padding-top: 5px;
+		}
+	}
+
+	.search-row-cta {
+		flex-basis: auto;
+		align-self: center;
+		margin-left: auto;
+	}
+
+	.search-row-cta .btn {
+		display: inline-block;
+	}
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+	.search-row-item {
 		flex-basis: 40%;
 		padding-right: 1rem;
+		padding-bottom: 0;
 	}
 
 	.search-row-price {
@@ -759,9 +798,8 @@ body {
 		flex-basis: 20%;
 	}
 
-	.search-row-cta {
-		align-self: center;
-		margin-left: auto;
+	.search-row-cta .btn {
+		margin: 0;
 	}
 
 }
