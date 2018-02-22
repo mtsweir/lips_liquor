@@ -107,12 +107,8 @@ $radius-pill: 44px;
 // Typography
 // =============================================
 
-h2, h3, h4, h5, h6, .title-bold, strong, b {
+.title-bold, strong, b {
 	font-weight: $font-weight-600;
-}
-
-h1 strong {
-	color: $brand-primary;
 }
 
 p a {
@@ -420,6 +416,13 @@ p a {
 	line-height: 1.4;
 }
 
+// h4
+
+.hero-title-section {
+	font-size: 1.75rem;
+	line-height: 1.5;
+}
+
 // p content
 
 .hero-subtitle {
@@ -469,7 +472,7 @@ p a {
 @media only screen and (min-width: 768px) {
 	
 	.hero-title {
-		font-size: 44px;
+		font-size: 38px;
 	}
 
 	.hero-image {
@@ -498,7 +501,6 @@ p a {
 }
 
 // Hero Sections
-
 
 .section-features {
 	margin-bottom: 4rem;

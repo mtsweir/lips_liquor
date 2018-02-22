@@ -252,6 +252,36 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/dist\/img\/lips-home-tile-01.jpg": {
+		"ft": 16384,
+		"iS": 27329,
+		"oA": 0,
+		"oAP": "\/dist\/img\/lips-home-tile-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/dist\/img\/lips-home-tile-02.jpg": {
+		"ft": 16384,
+		"iS": 38957,
+		"oA": 0,
+		"oAP": "\/dist\/img\/lips-home-tile-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/dist\/img\/lips-home-tile-03.jpg": {
+		"ft": 16384,
+		"iS": 37581,
+		"oA": 0,
+		"oAP": "\/dist\/img\/lips-home-tile-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/dist\/img\/lips-logo-glyph.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -346,6 +376,13 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/dist\/order-search.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/order-search.html",
+		"oF": 0
+		},
 	"\/dist\/order.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -412,9 +449,9 @@
 	"\/order-search.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/order-search.html",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/dist\/order-search.html",
+		"oF": 3
 		},
 	"\/order.html": {
 		"cB": 0,
