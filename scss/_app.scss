@@ -152,24 +152,25 @@ p a {
 	background-color: $brand-primary;
 
 	.nav-spacer {
-		margin-right: 14px;
+		color: rgba($white, 0.4s);
 	}
 
 	.list-inline-item:not(:last-child) {
-		@extend .nav-spacer;
+		margin-right: 14px;
 	}
 
 	a {
 		color: $white;
 		&:hover {
+			color: rgba($white, 0.8s);
 			text-decoration: none;
 		}
 	}
 
-	.icon {
-		margin-left: 4px;
-	}
+}
 
+.nav-item-social:not(:last-child) {
+	margin: 0 8px;
 }
 
 .nav-main {
