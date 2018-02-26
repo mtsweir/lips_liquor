@@ -726,10 +726,10 @@ p a {
 		// font-weight: $font-weight-thin;
 	}
 
-	.item-cta-expiry {
-		color: $brand-primary;
-	}
+}
 
+.cta-expiry {
+	color: $brand-primary;
 }
 
 .search-row-price {
@@ -767,6 +767,9 @@ p a {
 	font-size: 0.875rem;
 	.retailer-title {
 		font-weight: $font-weight-500;
+		a {
+			color: $brand-secondary;
+		}
 	}
 }
 
