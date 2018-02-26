@@ -592,8 +592,15 @@ p a {
 // =============================================
 
 .promo-item {
+	justify-content: space-between;
+	padding-bottom: 1.25rem;
+	min-height: 490px;
 	@include transition(border-color 0.15s ease-in-out);
-	border-radius: 0;
+
+	.card-body {
+		flex: inherit;
+		padding-bottom: 0;
+	}
 
 	&:hover {
 		border-color: $brand-primary;
@@ -601,6 +608,7 @@ p a {
 
 	&:hover .promo-savings {
 		background-color: $brand-primary;
+		border-radius: $radius/2 $radius/2 0 0;
 	}
 }
 
@@ -608,10 +616,15 @@ p a {
 	padding: 10px;
 	color: $white;
 	background-color: $shade-1;
+	border-radius: $radius $radius 0 0;
+	flex-basis: 100%;
 }
 
 .promo-img {
-	padding-top: 1rem;
+	padding: 1.25rem;
+	img {
+		max-width: 60px;
+	}
 }
 
 .promo-title {
@@ -653,6 +666,23 @@ p a {
 	font-size: 1.25rem;
 }
 
+@media (max-width: 480px) {
+	
+	.promo-item {
+		flex-direction: row;
+		flex-wrap: wrap;
+		min-height: auto;
+
+		.promo-img {
+			flex-basis: 30%;
+		}
+
+		.card-body {
+			flex-basis: 70%;
+		}
+	}
+
+}
 
 // Search Results
 // =============================================
