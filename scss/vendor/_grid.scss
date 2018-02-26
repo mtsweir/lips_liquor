@@ -66,6 +66,7 @@
 	left: 15px;
 	right: 15px;
 	margin-top: 10px;
+	padding: 30px;
 	overflow: hidden;
 	position: absolute;
 	z-index: 99;
@@ -118,59 +119,33 @@
 
 .og-fullimg,
 .og-details {
-	width: 50%;
-	float: left;
-	height: 100%;
 	overflow: hidden;
 	position: relative;
 }
 
 .og-details {
-	//padding: 0 40px 0 20px;
-	width: 95%;
-	float: left;
 	height: 100%;
 	overflow: hidden;
 	position: relative;
-	padding: 20px;
 }
 
 .og-fullimg {
+	padding-bottom: 30px;
 	text-align: center;
 }
 
 .og-fullimg img {
 	display: inline-block;
-	max-height: 100%;
-	max-width: 100%;
+	max-width: 100px;
 }
 
 .og-details h3 {
 	font-weight: $font-weight-normal;
-	// font-weight: 300;
-	// font-size: 52px;
-	// padding: 40px 0 10px;
-	// margin-bottom: 10px;
-}
-
-.og-details p {
-	// font-weight: 400;
-	// font-size: 16px;
-	// line-height: 22px;
-	// color: #999;
 }
 
 .og-details a {
-	// font-weight: 700;
-	// font-size: 16px;
-	// color: #333;
-	// text-transform: uppercase;
-	// letter-spacing: 2px;
-	// padding: 10px 20px;
-	// border: 3px solid #333;
-	// display: inline-block;
-	// margin: 30px 0 0;
-	// outline: none;
+	margin-top: 30px;
+	outline: none;
 	@extend .btn;
 	@extend .lips-btn-secondary;
 }
@@ -219,22 +194,32 @@
 	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (min-width: 600px) {
 
-	// .og-expander h3 { font-size: 32px; }
-	// .og-expander p { font-size: 13px; }
-	// .og-expander a { font-size: 12px; }
+	.og-expander {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.og-details,
+	.og-fullimg {
+		display: table-cell;
+		vertical-align: top;
+	}
+
+	.og-details {
+		padding-right: 60px;
+	}
+
+	.og-fullimg {
+		padding-right: 30px;
+		padding-bottom: 0;
+		width: 200px;
+	}
 
 }
 
-@media screen and (max-width: 650px) {
-
-	//.og-fullimg { display: none; }
-	.og-details { float: none; width: 100%; }
-	
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
 	
 	.og-grid {
 
@@ -247,10 +232,6 @@
 			}
 
 		}
-	}
-
-	.og-details {
-		padding: 40px;
 	}
 
 }
