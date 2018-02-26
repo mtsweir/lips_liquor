@@ -95,6 +95,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/dist\/img\/clearwater-cove-rose-lg.png": {
+		"ft": 32768,
+		"iS": 401535,
+		"oA": 0,
+		"oAP": "\/dist\/img\/clearwater-cove-rose-lg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/img\/clearwater-cove-rose.png": {
+		"ft": 32768,
+		"iS": 18231,
+		"oA": 0,
+		"oAP": "\/dist\/img\/clearwater-cove-rose.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/dist\/img\/favicon\/apple-touch-icon-120x120.png": {
 		"ft": 32768,
 		"iS": 11140,
@@ -247,6 +269,36 @@
 		"iS": 123366,
 		"oA": 0,
 		"oAP": "\/dist\/img\/lips-hero-sell.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/lips-home-tile-01.jpg": {
+		"ft": 16384,
+		"iS": 24269,
+		"oA": 0,
+		"oAP": "\/dist\/img\/lips-home-tile-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/lips-home-tile-02.jpg": {
+		"ft": 16384,
+		"iS": 35555,
+		"oA": 0,
+		"oAP": "\/dist\/img\/lips-home-tile-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/lips-home-tile-03.jpg": {
+		"ft": 16384,
+		"iS": 33540,
+		"oA": 0,
+		"oAP": "\/dist\/img\/lips-home-tile-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
