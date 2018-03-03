@@ -1,19 +1,20 @@
 @font-face {
-	font-family: 'icomoon';
-	src:  url('../fonts/icomoon.eot?1agymh');
-	src:  url('../fonts/icomoon.eot?1agymh#iefix') format('embedded-opentype'),
-		url('../fonts/icomoon.ttf?1agymh') format('truetype'),
-		url('../fonts/icomoon.woff?1agymh') format('woff'),
-		url('../fonts/icomoon.svg?1agymh#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'lips-icons';
+  src:  url('../fonts/lips-icons.eot?');
+  src:  url('../fonts/lips-icons.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lips-icons.ttf?') format('truetype'),
+		url('../fonts/lips-icons.woff?') format('woff2'),
+		url('../fonts/lips-icons.woff?') format('woff'),
+    url('../fonts/lips-icons.svg?#lips-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"],
 .btn-search-toggle::after,
 .result-item-expiry::before {
 	/* use !important to prevent issues with browser extensions that change fonts */
-	font-family: 'icomoon' !important;
+	font-family: 'lips-icons' !important;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -26,45 +27,30 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-postbox:before {
-	content: "\e693"; // icon-mailbox-full
+.icon-circulars:before {
+  content: "\e693"; // icon-mailbox-full
 }
 .icon-mail:before {
-	content: "\e696"; // icon-envelope
+  content: "\e696"; // icon-envelope
 }
-.icon-mail-open:before {
-	content: "\e697"; // icon-envelope-open
-}
-.icon-papers:before {
-	content: "\e6d4";
-}
-.icon-monitor:before {
-	content: "\e7af"; // icon-desktop
-}
-.icon-timer:before {
-	content: "\e8e8"; // icon-clock3
-}
-.icon-arrow-down:before {
-	content: "\e942";
-}
-.icon-close:before {
-	content: "\e935"; // icon-cross2
+.icon-mailers:before {
+  content: "\e699"; // .icon-paper-plane:before
 }
 .icon-binoculars:before {
-	content: "\e6a9";
+  content: "\e6a9";
 }
-
-// Social
-
-.icon-twitter:before {
-	content: "\e901";
+.icon-newspapers:before {
+  content: "\e6d4"; // .icon-papers
+}
+.icon-websites:before {
+  content: "\e7ad"; // .icon-laptop
+}
+.btn-search-toggle:after {
+  content: "\e922"; // icon-magnifier
 }
 .icon-facebook:before {
-	content: "\e900";
+  content: "\ea90";
 }
-
-// UI
-
-.btn-search-toggle::after {
-	content: "\e942";
+.icon-twitter:before {
+  content: "\ea96";
 }
