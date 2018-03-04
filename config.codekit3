@@ -341,6 +341,13 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/dist\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/index.html",
+		"oF": 0
+		},
 	"\/dist\/join.html": {
 		"cB": 0,
 		"ft": 8192,
