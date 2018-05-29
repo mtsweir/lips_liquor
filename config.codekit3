@@ -7,7 +7,7 @@
 		"uuidString": "56A48BF6-5479-452F-8834-60E15CA9D6E0"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -95,6 +95,7 @@
 	"\/dist\/img\/bottle.jpg": {
 		"ft": 16384,
 		"iS": 12140,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/dist\/img\/bottle.jpg",
 		"oF": 0,
@@ -127,6 +128,7 @@
 	"\/dist\/img\/drinkspy-hero-home-mobile.jpg": {
 		"ft": 16384,
 		"iS": 87869,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/dist\/img\/drinkspy-hero-home-mobile.jpg",
 		"oF": 0,
@@ -137,6 +139,7 @@
 	"\/dist\/img\/drinkspy-hero-home.jpg": {
 		"ft": 16384,
 		"iS": 261211,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/dist\/img\/drinkspy-hero-home.jpg",
 		"oF": 0,
@@ -147,6 +150,7 @@
 	"\/dist\/img\/drinkspy-hero-join-mobile.jpg": {
 		"ft": 16384,
 		"iS": 114394,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/dist\/img\/drinkspy-hero-join-mobile.jpg",
 		"oF": 0,
@@ -157,6 +161,7 @@
 	"\/dist\/img\/drinkspy-hero-join.jpg": {
 		"ft": 16384,
 		"iS": 230913,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/dist\/img\/drinkspy-hero-join.jpg",
 		"oF": 0,
@@ -167,6 +172,7 @@
 	"\/dist\/img\/drinkspy-hero-sell-mobile.jpg": {
 		"ft": 16384,
 		"iS": 90910,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/dist\/img\/drinkspy-hero-sell-mobile.jpg",
 		"oF": 0,
@@ -177,6 +183,7 @@
 	"\/dist\/img\/drinkspy-hero-sell.jpg": {
 		"ft": 16384,
 		"iS": 123366,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/dist\/img\/drinkspy-hero-sell.jpg",
 		"oF": 0,
@@ -197,6 +204,7 @@
 	"\/dist\/img\/drinkspy-modal-bg.jpg": {
 		"ft": 16384,
 		"iS": 22248,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/dist\/img\/drinkspy-modal-bg.jpg",
 		"oF": 0,
@@ -294,6 +302,7 @@
 	"\/dist\/img\/home-tile-01.jpg": {
 		"ft": 16384,
 		"iS": 24269,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/dist\/img\/home-tile-01.jpg",
 		"oF": 0,
@@ -304,6 +313,7 @@
 	"\/dist\/img\/home-tile-02.jpg": {
 		"ft": 16384,
 		"iS": 35555,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/dist\/img\/home-tile-02.jpg",
 		"oF": 0,
@@ -314,6 +324,7 @@
 	"\/dist\/img\/home-tile-03.jpg": {
 		"ft": 16384,
 		"iS": 33540,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/dist\/img\/home-tile-03.jpg",
 		"oF": 0,
@@ -324,6 +335,7 @@
 	"\/dist\/img\/IMG_7852.jpg": {
 		"ft": 16384,
 		"iS": 126871,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/dist\/img\/IMG_7852.jpg",
 		"oF": 0,
@@ -1711,7 +1723,8 @@
 	"creationDate": 533075318,
 	"displayValue": "lips_liquor",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-grumpy"
+	"iconImageName": "\/dist\/img\/favicon\/apple-touch-icon-120x120.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3514,6 +3527,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
