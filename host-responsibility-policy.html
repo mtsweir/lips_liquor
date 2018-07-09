@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Host Responsibility Policy</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Favicon Stack -->
+	<link rel="icon" type="image/png" sizes="32x32" href="../dist/img/favicon/drinkspy-icon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../dist/img/favicon/drinkspy-icon-16x16.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../dist/img/favicon/apple-touch-icon-180x180.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="../dist/img/favicon/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="../dist/img/favicon/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="../dist/img/favicon/apple-touch-icon-76x76.png">
+	<meta name="theme-color" content="#cf1717">
+	<link rel="mask-icon" href="../dist/img/drinkspy-icon.svg" color="#cf1717">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="../dist/css/bootstrap.css">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600" rel="stylesheet">
+
+	<script src="../dist/js/modernizr.custom.js"></script>
+</head>
+<body>
+<a class="sr-only sr-only-focusable" href="#lps-content">Skip to main content</a>
+
+<!-- Pushy Menu -->
+<nav class="pushy pushy-right">
+	<div class="pushy-content">
+		<div class="mobile-sidebar pt-4 p-3">
+			<div class="mobile-sidebar-header">
+				<h5 class="text-muted">Browse</h5>
+				<button type="button" class="btn-menu-toggle close pushy-link" aria-label="Close">
+					<div aria-hidden="true">
+						<i class="menu-line"></i>
+						<i class="menu-line"></i>
+						<i class="menu-line"></i>
+					</div>
+				</button>
+			</div>
+			<ul class="list-unstyled m-0 p-0">
+				<li><hr></li>
+				<li>
+					<a href="#">Grab a deal</a>
+				</li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Sell on Drinkspy</a></li>
+				<li aria-hidden="true"><hr></li>
+				<li>
+					<div class="d-table">
+						<div class="d-table-cell w-100 align-top">
+							<a href="#">Get our Weekly Deals
+								<span class="text-muted link-text-secondary d-block">Subscribe to receive new weekly deals straight to your inbox</span>
+							</a>
+						</div>
+						<div class="d-table-cell align-middle">
+							<img class="mobile-sidebar-logo" src="../dist/img/drinkspy-logo.svg" alt="Drinkspy Newsletter">
+						</div>
+					</div>
+				</li>
+				<li aria-hidden="true"><hr></li>
+				<li class="list-inline-item mr-2">
+					<a href="#">
+						<span class="social-icon icon-facebook" title="Facebook"></span>
+						<span class="sr-only">Facebook</span>
+					</a>
+				</li>
+				<li class="list-inline-item mr-2">
+					<a href="#">
+						<span class="social-icon icon-twitter"></span>
+						<span class="sr-only">Twitter</span>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#">
+						<span class="social-icon icon-mail"></span>
+						<span class="sr-only">Newsletter</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Site Overlay -->
+<div class="site-overlay"></div>
+
+<!-- Pushy Container -->
+<div id="container">
+
+<!-- Header -->
+<header id="lps-header" class="lps-header">
+	<!-- Nav Info -->
+	<div class="nav-info py-2 px-3">
+		<div class="container">
+			<span class="logo logo-mobile d-block d-md-none">
+				<a href="#" class="logo-img logo-drinkspy">Drinkspy</a>
+			</span>
+			<ul class="nav-info-list list-inline text-right m-0 d-none d-md-block">
+				<li class="list-inline-item"><a href="#">Grab a deal</a></li>
+				<li class="list-inline-item"><a href="#">About</a></li>
+				<li class="list-inline-item"><a href="#">Sell on Drinkspy</a></li>
+				<li class="list-inline-item"><a href="#">Contact</a></li>
+				<li class="list-inline-item"><a href="#">Subscribe</a></li>
+				<li class="list-inline-item">
+					<span class="nav-spacer" aria-hidden="true">|</span>
+					<a href="#" class="nav-item-social">
+						<span class="icon-facebook"></span>
+						<span class="sr-only">Facebook</span>
+					</a>
+					<a href="#" class="nav-item-social">
+						<span class="icon-twitter"></span>
+						<span class="sr-only">Twitter</span>
+					</a>
+				</li>
+			</ul>
+			<button class="btn-menu-toggle menu d-block d-md-none menu-btn pushy-open-right" aria-label="Menu">
+				<div aria-hidden="true">
+					<i class="menu-line"></i>
+					<i class="menu-line"></i>
+					<i class="menu-line"></i>
+				</div>
+			</button>
+		</div>
+	</div>
+	<!-- Nav Main -->
+	<div class="nav-main d-nones d-md-blocks">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<div class="logo logo-desktop d-none d-md-block">
+						<a href="#" class="logo-img logo-drinkspy">Drinkspy</a>
+					</div>
+				</div>
+				<div class="col-md-10">
+					
+					<a class="btn-search-toggle d-md-none" data-toggle="collapse" href="#headerSearch" aria-expanded="false" aria-controls="headerSearch">Search Liquor Prices </a>
+
+					<div class="collapse d-md-block" id="headerSearch">
+					<form class="header-search pt-3">
+						<div class="form-row">
+							<div class="form-group col-sm-6 col-md">
+								<label class="sr-only" for="selectFilter_Alcoholtype">Alcohol type</label>
+								<select class="form-control form-control-sm custom-select" id="selectFilter_Alcoholtype">
+									<option>Alcohol type</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="form-group col-sm-6 col-md">
+								<label class="sr-only" for="selectFilter_Drinktype">Drink type</label>
+								<select class="form-control form-control-sm custom-select" id="selectFilter_Drinktype">
+									<option>Drink type</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="form-group col-sm-6 col-md">
+								<label class="sr-only" for="selectFilter_Brand">Brand</label>
+								<select class="form-control form-control-sm custom-select" id="selectFilter_Brand">
+									<option>Brand</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="form-group col-sm-6 col-md">
+								<label class="sr-only" for="selectFilter_Retailer">Retailer</label>
+								<select class="form-control form-control-sm custom-select" id="selectFilter_Retailer">
+									<option>Retailer</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="form-group col-sm-12 col-md-2">
+								<button type="submit" class="btn lips-btn-secondary btn-block btn-sm">Search</button>
+							</div>
+						</div>
+					</form>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- END: Header -->
+
+<!-- Lips Content -->
+<section id="lps-content" class="lps-content">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-sm">
+
+				<div class="page-intro">
+					<h1 class="page-intro-title">DrinkSpy Host Responsibility Policy</h1>
+				</div>
+
+				<p>Our goal is to ensure all visitors to www.drinkspy.co.nz have an enjoyable experience. It is our intention to promote the sale of alcohol responsibly on this website, and we encourage you to drink responsibly at all times.</p>
+				<p>We have a legal and moral obligation to provide a safe and secure website for our customers, and we will do everything possible to maintain the highest standards of host responsibility.</p>
+				<p>Please review our commitments and obligations below:</p>
+				<ul>
+					<li>Only those aged 18 years or older will be sold alcoholic beverages on this website</li>
+					<li>Online customers must declare they are 18 years of age or older</li>
+					<li>It is illegal to falsely declare your age in order to buy alcohol if you are under the age of 18 years</li>
+					<li>A false declaration of age in order to buy alcohol is an offence under the Sale &amp; Supply of Alcohol Act 2012</li>
+					<li>The penalty if convicted is a fine of up to $2,000</li>
+					<li>If you are under 18 years of age you are not allowed to shop with DrinkSpy</li>
+					<li>Only persons over the age of 18 are able to sign and receive orders from DrinkSpy, and this is in accordance with our courier’s alcohol delivery policy</li>
+					<li>If you look under the age of 25 years our courier will ask to see valid ID</li>
+					<li>If the receiver is under the age of 18 years or does not have a valid form of ID, the package will be returned to the depot for further instruction</li>
+					<li>By submitting an order and agreeing to the Terms &amp; Conditions of this website, you are confirming that you are over the age of 18 and legally allowed to buy alcohol in New Zealand</li>
+					<li>The promotion of alcohol on this website will always be conducted in a responsible manner</li>
+					<li>A range of low alcohol and non-alcoholic beverages will always be available for sale on this website</li>
+					<li>We will always operate within the requirements of the Sale &amp; Supply of Alcohol Act 2012</li>
+					<li>Please be safe, drink responsibly and look after your friends and family</li>
+				</ul>
+				<p>We hope you enjoy your visit</p>
+				<p>The DrinkSpy Team.</p>
+			</div>
+		</div>
+		
+	</div>
+</section>
+<!-- END: Lips Content -->
+
+<!-- Footer -->
+<footer id="lps-footer" class="lps-footer">
+	<div class="container">
+		<div class="row text-white">
+			<div class="col-sm text-md-center">
+				<h4 class="title-bold my-3 mb-5">&ldquo; NZ’s only price spy to find the best advertised liquor deals &rdquo;</h4>
+			</div>
+		</div>
+		<div class="row text-white">
+			<div class="col-sm-4">
+				<p>Search &amp; compare advertised liquor prices from leading retailers nationwide.</p>
+				<p>We monitor 1000’s of beer, wine and spirits specials every week so you are guaranteed to find the best deal for you!</p>
+			</div>
+			<div class="col-sm">
+				<ul class="list-unstyled">
+					<li><a href="#lps-content">Grab a Deal</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div class="col-sm">
+				<ul class="list-unstyled">
+					<li><a href="#">Subscribe</a></li>
+					<li><a href="#">Sell on Drinkspy</a></li>
+				</ul>
+			</div>
+			<div class="col-sm">
+				<ul class="list-inline list-unstyled list-social">
+					<li class="list-inline-item">
+						<a href="#">
+							<span class="social-icon icon-facebook" title="Facebook" aria-hidden="true"></span>
+							<span class="sr-only">Facebook</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#">
+							<span class="social-icon icon-twitter" aria-hidden="true"></span>
+							<span class="sr-only">Twitter</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#">
+							<span class="social-icon icon-mail" aria-hidden="true"></span>
+							<span class="sr-only">Twitter</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row text-secondary py-2">
+			<div class="col-sm">
+				<small>&copy; Copyright - 2005 Drinkspy. All rights reserved  | <a href="#">Terms &amp; Conditions</a>  |  <a href="#">Privacy Policy</a>  |  <a href="#">back to top</a></small>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- END: Footer -->
+
+</div>
+<!-- END: Pushy Container -->
+
+<!-- Scripts -->
+
+<!-- Bootstrap Scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+<script src="../dist/js/bootstrap.min.js"></script>
+
+<!-- Vendor Scripts -->
+<script src="../dist/js/pushy.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+<script src="../dist/js/grid.js"></script>
+<script>
+	// Grid Display
+	$(function() {
+		Grid.init();
+	});
+
+	// Search Toggle
+	$('.btn-search-toggle').on('click', function(e){
+		$(this).toggleClass('expanded');
+	});
+</script>
+
+<!-- END: Scripts -->
+
+</body>
+</html>
