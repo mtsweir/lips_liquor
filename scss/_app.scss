@@ -18,8 +18,11 @@ $brand-secondary: $shade-1;
 $white: #fff;
 $green: #77b204;
 $highlight: #f0efda;
-$brand-facebook: #3b5998;
-$brand-twitter: #1da1f2;
+
+// Vendor
+$facebook-primary: #3b5998;
+$twitter-primary: #1da1f2;
+$instagram-primary: #405de6;
 
 // Buttons
 $lips-btn-primary: $brand-primary; // red
@@ -1264,11 +1267,15 @@ label {
 	font-size: 1.5rem;
 	
 	&.icon-facebook {
-		background-color: $brand-facebook;
+		background-color: $facebook-primary;
 	}
 
 	&.icon-twitter {
-		background-color: $brand-twitter;
+		background-color: $twitter-primary;
+	}
+
+	&.icon-instagram {
+		background-color: $instagram-primary;
 	}
 
 }
