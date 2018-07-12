@@ -676,24 +676,6 @@ p a {
 	font-size: 1.25rem;
 }
 
-@media (max-width: 480px) {
-	
-	.promo-item {
-		flex-direction: row;
-		flex-wrap: wrap;
-		min-height: auto;
-
-		.promo-img {
-			flex-basis: 30%;
-		}
-
-		.card-body {
-			flex-basis: 70%;
-		}
-	}
-
-}
-
 // Search Results
 // =============================================
 
