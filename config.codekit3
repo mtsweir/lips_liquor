@@ -16,6 +16,50 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/_archive\/drinkspy-hero-home-mobile.jpg": {
+		"ft": 16384,
+		"iS": 87869,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_archive\/drinkspy-hero-home-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_archive\/drinkspy-hero-home.jpg": {
+		"ft": 16384,
+		"iS": 261211,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_archive\/drinkspy-hero-home.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_archive\/drinkspy-hero-sell-mobile.jpg": {
+		"ft": 16384,
+		"iS": 90910,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_archive\/drinkspy-hero-sell-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_archive\/drinkspy-hero-sell.jpg": {
+		"ft": 16384,
+		"iS": 123366,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_archive\/drinkspy-hero-sell.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/about.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -99,6 +143,90 @@
 		"oAP": "\/dist\/fonts\/lips-icons.woff2",
 		"oF": 0
 		},
+	"\/dist\/hero-demo-01.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/hero-demo-01.html",
+		"oF": 0
+		},
+	"\/dist\/hero-demo-02.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/hero-demo-02.html",
+		"oF": 0
+		},
+	"\/dist\/hero-demo-03.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/hero-demo-03.html",
+		"oF": 0
+		},
+	"\/dist\/hero-demo-04.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/hero-demo-04.html",
+		"oF": 0
+		},
+	"\/dist\/hero-demo-05.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/hero-demo-05.html",
+		"oF": 0
+		},
+	"\/dist\/hero-demo-06.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/hero-demo-06.html",
+		"oF": 0
+		},
+	"\/dist\/hero-demo-07.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/hero-demo-07.html",
+		"oF": 0
+		},
+	"\/dist\/hero-demo-08.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/hero-demo-08.html",
+		"oF": 0
+		},
+	"\/dist\/hero-demo-09.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/hero-demo-09.html",
+		"oF": 0
+		},
+	"\/dist\/hero-demo-10.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/hero-demo-10.html",
+		"oF": 0
+		},
+	"\/dist\/hero-demo-11.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/hero-demo-11.html",
+		"oF": 0
+		},
+	"\/dist\/hero-demo-12.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/hero-demo-12.html",
+		"oF": 0
+		},
 	"\/dist\/img\/bottle.jpg": {
 		"ft": 16384,
 		"iS": 12140,
@@ -132,15 +260,37 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/img\/drinkspy-hero-home-mobile.jpg": {
+	"\/dist\/img\/drinkspy-hero-about-mobile.jpg": {
 		"ft": 16384,
-		"iS": 87869,
+		"iS": 54009,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/dist\/img\/drinkspy-hero-home-mobile.jpg",
+		"oAP": "\/dist\/img\/drinkspy-hero-about-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/drinkspy-hero-about.jpg": {
+		"ft": 16384,
+		"iS": 158080,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/drinkspy-hero-about.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/drinkspy-hero-home-mobile.jpg": {
+		"ft": 16384,
+		"iS": 453561,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-01-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/dist\/img\/drinkspy-hero-home.jpg": {
@@ -149,28 +299,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/dist\/img\/drinkspy-hero-home.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/img\/drinkspy-hero-join-mobile.jpg": {
-		"ft": 16384,
-		"iS": 114394,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/dist\/img\/drinkspy-hero-join-mobile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/img\/drinkspy-hero-join.jpg": {
-		"ft": 16384,
-		"iS": 230913,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/dist\/img\/drinkspy-hero-join.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -189,7 +317,7 @@
 		},
 	"\/dist\/img\/drinkspy-hero-sell.jpg": {
 		"ft": 16384,
-		"iS": 123366,
+		"iS": 203374,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/dist\/img\/drinkspy-hero-sell.jpg",
@@ -304,6 +432,204 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/img\/hero-02-mobile.jpg": {
+		"ft": 16384,
+		"iS": 174877,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-02-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/dist\/img\/hero-02.jpg": {
+		"ft": 16384,
+		"iS": 242093,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/hero-03-mobile.jpg": {
+		"ft": 16384,
+		"iS": 68574,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-03-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/dist\/img\/hero-03.jpg": {
+		"ft": 16384,
+		"iS": 128427,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/hero-04-mobile.jpg": {
+		"ft": 16384,
+		"iS": 49082,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-04-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/dist\/img\/hero-04.jpg": {
+		"ft": 16384,
+		"iS": 146777,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/dist\/img\/hero-05-mobile.jpg": {
+		"ft": 16384,
+		"iS": 57308,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-05-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/hero-05.jpg": {
+		"ft": 16384,
+		"iS": 184559,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/hero-06-mobile.jpg": {
+		"ft": 16384,
+		"iS": 75078,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-06-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/dist\/img\/hero-06.jpg": {
+		"ft": 16384,
+		"iS": 216121,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/dist\/img\/hero-08-mobile.jpg": {
+		"ft": 16384,
+		"iS": 114394,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-08-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/dist\/img\/hero-08.jpg": {
+		"ft": 16384,
+		"iS": 230913,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/dist\/img\/hero-09-mobile.jpg": {
+		"ft": 16384,
+		"iS": 40046,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-09-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/hero-09.jpg": {
+		"ft": 16384,
+		"iS": 57819,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/hero-10-mobile.jpg": {
+		"ft": 16384,
+		"iS": 31847,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-10-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/hero-10.jpg": {
+		"ft": 16384,
+		"iS": 168072,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/hero-11-mobile.jpg": {
+		"ft": 16384,
+		"iS": 35790,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-11-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/img\/hero-11.jpg": {
+		"ft": 16384,
+		"iS": 131793,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/img\/hero-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/dist\/img\/home-tile-01.jpg": {
@@ -455,6 +781,90 @@
 		"oA": 0,
 		"oAP": "\/dist\/terms.html",
 		"oF": 0
+		},
+	"\/hero-demo-01.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/hero-demo-01.html",
+		"oF": 3
+		},
+	"\/hero-demo-02.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/hero-demo-02.html",
+		"oF": 3
+		},
+	"\/hero-demo-03.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/hero-demo-03.html",
+		"oF": 3
+		},
+	"\/hero-demo-04.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/hero-demo-04.html",
+		"oF": 3
+		},
+	"\/hero-demo-05.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/hero-demo-05.html",
+		"oF": 3
+		},
+	"\/hero-demo-06.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/hero-demo-06.html",
+		"oF": 3
+		},
+	"\/hero-demo-07.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/hero-demo-07.html",
+		"oF": 3
+		},
+	"\/hero-demo-08.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/hero-demo-08.html",
+		"oF": 3
+		},
+	"\/hero-demo-09.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/hero-demo-09.html",
+		"oF": 3
+		},
+	"\/hero-demo-10.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/hero-demo-10.html",
+		"oF": 3
+		},
+	"\/hero-demo-11.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/hero-demo-11.html",
+		"oF": 3
+		},
+	"\/hero-demo-12.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/hero-demo-12.html",
+		"oF": 3
 		},
 	"\/holding.html": {
 		"cB": 0,
@@ -1085,7 +1495,7 @@
 		"oA": 0,
 		"oAP": "\/dist\/css\/bootstrap.css",
 		"oF": 2,
-		"oS": 1,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/mixins\/_alert.scss": {
