@@ -544,12 +544,8 @@ p a {
 }
 
 .icon-with-text {
-	display: table;
-	
-	.icon-with-text-item {
-		vertical-align: middle;
-		display: table-cell;
-	}
+	display: flex;
+	align-items: center;
 
 	.lips-icon {
 		color: $brand-primary;
@@ -565,7 +561,26 @@ p a {
 .lips-feature-row {
 
 	.lips-feature-row-item {
-		margin: 20px 0 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10% 8% 0;
+    margin-bottom: 2rem;
+	}
+
+	.lips-feature-row-item:hover {
+		.lips-icon {
+			// animation
+			animation: bounce 0.3s;
+			animation-direction: alternate;
+			animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);
+			animation-iteration-count: 2;
+		}
+	}
+
+	@keyframes bounce {
+  	from { transform: translate3d(0, 0, 0); }
+  	to   { transform: translate3d(0, -5px, 0); }
 	}
 
 	.lips-icon {
@@ -573,12 +588,15 @@ p a {
 	}
 
 	.label {
-		padding-left: 20px;
+		padding-left: 1rem;
+		color: $brand-primary;
 		font-size: 24px;
 	}
 
 	p {
 		margin-top: 10px;
+		font-size: 1.1rem;
+		text-align: center;
 	}
 }
 
