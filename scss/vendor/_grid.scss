@@ -114,7 +114,7 @@
 
 .og-fullimg img {
 	display: inline-block;
-	max-width: 100px;
+	max-width: 160px;
 }
 
 .og-details h3 {
@@ -179,9 +179,24 @@
 	}
 
 	.og-fullimg {
-		padding-right: 30px;
+		padding-left: 40px;
+		padding-right: 60px;
 		padding-bottom: 0;
-		width: 200px;
+	}
+
+}
+
+@media screen and (min-width: 720px) {
+
+	.og-details {
+		h3 {
+			font-size: 2.5rem;
+		}
+
+		p {
+			font-size: 1.15rem;
+			line-height: 1.6;
+		}
 	}
 
 }
