@@ -54,6 +54,8 @@ sublime-gulp.log
 *.css
 *.map
 
-# Ignore any build folders
-node_modules
-bower_components
+# Directories
+
+node_modules/
+bower_components/
+_archive/
