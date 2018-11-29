@@ -473,6 +473,12 @@ p a {
 	&.hero-image--join {
 		background-image: url(../img/drinkspy-hero-join-mobile.jpg);
 	}
+	&.hero-image--bestbuys {
+		background-image: url(../img/drinkspy-hero-bestbuys-mobile.jpg);
+	}
+	&.hero-image--slushy {
+		background-image: url(../img/drinkspy-hero-slushy-mobile.jpg);
+	}
 
 }
 
@@ -502,6 +508,12 @@ p a {
 		}
 		&.hero-image--join {
 			background-image: url(../img/drinkspy-hero-join.jpg);
+		}
+		&.hero-image--bestbuys {
+		background-image: url(../img/drinkspy-hero-bestbuys.jpg);
+		}
+		&.hero-image--slushy {
+			background-image: url(../img/drinkspy-hero-slushy.jpg);
 		}
 
 	}
