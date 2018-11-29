@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Best Buys</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Favicon Stack -->
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/drinkspy-icon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/drinkspy-icon-16x16.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
+	<meta name="theme-color" content="#cf1717">
+	<link rel="mask-icon" href="img/drinkspy-icon.svg" color="#cf1717">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600" rel="stylesheet">
+
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+<a class="sr-only sr-only-focusable" href="#lps-content">Skip to main content</a>
+
+<!-- Pushy Menu -->
+<nav class="pushy pushy-right">
+	<div class="pushy-content">
+		<div class="mobile-sidebar pt-4 p-3">
+			<div class="mobile-sidebar-header">
+				<h5 class="text-muted">Browse</h5>
+				<button type="button" class="btn-menu-toggle close pushy-link" aria-label="Close">
+					<div aria-hidden="true">
+						<i class="menu-line"></i>
+						<i class="menu-line"></i>
+						<i class="menu-line"></i>
+					</div>
+				</button>
+			</div>
+			<ul class="list-unstyled m-0 p-0">
+				<li><hr></li>
+				<li>
+					<a href="#">Grab a deal</a>
+				</li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Sell on Drinkspy</a></li>
+				<li aria-hidden="true"><hr></li>
+				<li>
+					<div class="d-table">
+						<div class="d-table-cell w-100 align-top">
+							<a href="#">Get our Weekly Deals
+								<span class="text-muted link-text-secondary d-block">Subscribe to receive new weekly deals straight to your inbox</span>
+							</a>
+						</div>
+						<div class="d-table-cell align-middle">
+							<img class="mobile-sidebar-logo" src="img/drinkspy-logo.svg" alt="Drinkspy Newsletter">
+						</div>
+					</div>
+				</li>
+				<li aria-hidden="true"><hr></li>
+				<li class="list-inline-item mr-2">
+					<a href="#">
+						<span class="social-icon icon-facebook" title="Facebook"></span>
+						<span class="sr-only">Facebook</span>
+					</a>
+				</li>
+				<li class="list-inline-item mr-2">
+					<a href="#">
+						<span class="social-icon icon-twitter"></span>
+						<span class="sr-only">Twitter</span>
+					</a>
+				</li>
+				<li class="list-inline-item mr-2">
+					<a href="#">
+						<span class="social-icon icon-instagram"></span>
+						<span class="sr-only">Instagram</span>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#">
+						<span class="social-icon icon-mail"></span>
+						<span class="sr-only">Newsletter</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Site Overlay -->
+<div class="site-overlay"></div>
+
+<!-- Pushy Container -->
+<div id="container">
+
+<!-- Header -->
+<header id="lps-header" class="lps-header">
+	<!-- Nav Info -->
+	<div class="nav-info py-2 px-3">
+		<div class="container">
+			<span class="logo logo-mobile d-block d-md-none">
+				<a href="#" class="logo-img logo-drinkspy">Drinkspy</a>
+			</span>
+			<ul class="nav-info-list list-inline text-right m-0 d-none d-md-block">
+				<li class="list-inline-item"><a href="#">Grab a deal</a></li>
+				<li class="list-inline-item"><a href="#">About</a></li>
+				<li class="list-inline-item"><a href="#">Sell on Drinkspy</a></li>
+				<li class="list-inline-item"><a href="#">Contact</a></li>
+				<li class="list-inline-item"><a href="#">Subscribe</a></li>
+				<li class="list-inline-item">
+					<span class="nav-spacer" aria-hidden="true">|</span>
+					<a href="#" class="nav-item-social">
+						<span class="icon-facebook"></span>
+						<span class="sr-only">Facebook</span>
+					</a>
+					<a href="#" class="nav-item-social">
+						<span class="icon-twitter"></span>
+						<span class="sr-only">Twitter</span>
+					</a>
+					<a href="#" class="nav-item-social">
+						<span class="icon-instagram"></span>
+						<span class="sr-only">Instagram</span>
+					</a>
+				</li>
+			</ul>
+			<button class="btn-menu-toggle menu d-block d-md-none menu-btn pushy-open-right" aria-label="Menu">
+				<div aria-hidden="true">
+					<i class="menu-line"></i>
+					<i class="menu-line"></i>
+					<i class="menu-line"></i>
+				</div>
+			</button>
+		</div>
+	</div>
+	<!-- Nav Main -->
+	<div class="nav-main d-nones d-md-blocks">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<div class="logo logo-desktop d-none d-md-block">
+						<a href="#" class="logo-img logo-drinkspy">Drinkspy</a>
+					</div>
+				</div>
+				<div class="col-md-10">
+					
+					<a class="btn-search-toggle d-md-none" data-toggle="collapse" href="#headerSearch" aria-expanded="false" aria-controls="headerSearch">Search Liquor Prices </a>
+
+					<div class="collapse d-md-block" id="headerSearch">
+					<form class="header-search pt-3">
+						<div class="form-row">
+							<div class="form-group col-sm-6 col-md">
+								<label class="sr-only" for="selectFilter_Alcoholtype">Alcohol type</label>
+								<select class="form-control form-control-sm custom-select" id="selectFilter_Alcoholtype">
+									<option>Alcohol type</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="form-group col-sm-6 col-md">
+								<label class="sr-only" for="selectFilter_Drinktype">Drink type</label>
+								<select class="form-control form-control-sm custom-select" id="selectFilter_Drinktype">
+									<option>Drink type</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="form-group col-sm-6 col-md">
+								<label class="sr-only" for="selectFilter_Brand">Brand</label>
+								<select class="form-control form-control-sm custom-select" id="selectFilter_Brand">
+									<option>Brand</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="form-group col-sm-6 col-md">
+								<label class="sr-only" for="selectFilter_Retailer">Retailer</label>
+								<select class="form-control form-control-sm custom-select" id="selectFilter_Retailer">
+									<option>Retailer</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="form-group col-sm-12 col-md-2">
+								<button type="submit" class="btn lips-btn-secondary btn-block btn-sm">Search</button>
+							</div>
+						</div>
+					</form>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- END: Header -->
+
+<!-- Hero -->
+<section id="lps-hero" class="hero hero-image hero-image--bestbuys text-center text-white">
+	<div class="hero-section">
+		<h2 class="hero-title h1">Grab a great everyday deal with our best buys</h2>
+		<p class="hero-subtitle">Direct from the Supplier!</p>
+	</div>
+</section>
+<!-- END: Hero -->
+
+<!-- Drinkspy Content -->
+<section id="lps-content" class="lps-content lps-content-home">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-sm">
+				<div class="page-intro-home text-center">
+					<p class="lead">FREE delivery on 4+ orders of the same product</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Drinkspy Promos -->
+		<div class="row">
+			<div class="col-sm">
+				<ul id="og-grid" class="og-grid list-unstyled">
+					<li>
+						<a href="#" data-largesrc="img/bdollpg.jpg" data-title="Bach Brewing Duskrider Red IPA" data-description="Produced by Peter Yealands, Clearwater Cove sources grapes from the best vineyard regions across New Zealand. This newly released 2017 Pinot Rose is sourced from the Awatere Valley and Wairau Valley, together combining to create a wine brimming with varietal character, balance and elegance. This pretty, light peach coloured rosé has an enticing bouquet of pomegranate, fresh strawberries and honeysuckle. A juicy, rich palate with delicate flavours of strawberries & cream, shortcake and plum, with great length and well-balanced acidity. Beautiful with goats cheese, light summer salads or your favourite shellfish. Fantastic value under $12 delivered!">
+						<div class="card promo-item">
+							<div class="promo-savings text-center">
+								<span class="promo-savings-text">Save $3.00</span>
+							</div>
+							<div class="promo-img text-center">
+								<img class="mx-auto" src="img/bdollpg.jpg" alt="">
+							</div>
+							<div class="card-body promo-details">
+								<h4 class="card-title promo-title">Bach Brewing Duskrider Red IPA</h4>
+								<p class="promo-item-highlight">Delivered</p>
+								<p>750mls | Min order: 6 bottles</p>
+								<div class="promo-footer clearfix">
+									<span class="price-initial">$14.99</span> <b class="promo-price">$11.99</b>
+								</div>
+								<span class="btn lips-btn-secondary btn-block">Grab this Deal</span>
+							</div>
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="img/flxmer.jpg" data-title="Babydoll Marlborough Sauvignon Blanc 2017" data-description="Yealands' flock of Babydoll sheep stand barely two feet tall. Too short to reach the grapes, these pint-sized organic weeders provide year round mowing and pest control, plus a handy dose of fertiliser. Having Babydoll sheep graze in the vineyard cuts down on energy intensive mowing, and helps keep Yealands at the forefront of being New Zealand's most sustainable winery. The wine is pretty special too. With flavours of ripe citrus, nectarine, feijoa and lemongrass characters, it's not surprising it was awarded the TROPHY and Best Wine in Show at the Decanter Asia Wine Awards. Great value under $15!">
+						<div class="card promo-item">
+							<div class="promo-savings text-center">
+								<span class="promo-savings-text">Save $5.00</span>
+							</div>
+							<div class="promo-img text-center">
+								<img class="mx-auto" src="img/flxmer.jpg" alt="">
+							</div>
+							<div class="card-body promo-details">
+								<h4 class="card-title promo-title">Babydoll Marlborough Sauvignon Blanc 2017</h4>
+								<p class="promo-item-highlight">Trophy Winner!</p>
+								<p>750mls | Min order: 6 bottles</p>
+								<div class="promo-footer clearfix">
+									<span class="price-initial">$19.99</span> <b class="promo-price">$14.99</b>
+								</div>
+								<span class="btn lips-btn-secondary btn-block">Grab this Deal</span>
+							</div>
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="img/macsllb.png" data-title="Crossroads Chardonnay 2015" data-description="For over 20 years, Crossroads has represented the very best of small parcel winemaking. The Crossroads Milestone Series range celebrates our dedication from the vineyard to the winery – creating benchmark wines from New Zealand. Awarded a GOLD MEDAL at the International Wine Challenge in the UK, this 2015 Chardonnay from Crossroads is simply exceptional. With citrus blossom, fresh toast and a hint of gun smoke on the nose, the palate is rich and fresh with flavours of nectarine, lemon and toasty oak. Great with roast chicken, lightly smoked salmon, surf clams or creamy mushroom pasta. Unbelievable value at $14.99 delivered!">
+						<div class="card promo-item">
+							<div class="promo-savings text-center">
+								<span class="promo-savings-text">Save $5.00</span>
+							</div>
+							<div class="promo-img text-center">
+								<img class="mx-auto" src="img/macsllb.png" alt="">
+							</div>
+							<div class="card-body promo-details">
+								<h4 class="card-title promo-title">Crossroads Chardonnay 2015</h4>
+								<p class="promo-item-highlight">Delivery included</p>
+								<p>750mls | Min order: 6 bottles</p>
+								<div class="promo-footer clearfix">
+									<span class="price-initial">$19.99</span> <b class="promo-price">$14.99</b>
+								</div>
+								<span class="btn lips-btn-secondary btn-block">Grab this Deal</span>
+							</div>
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="img/stcrose.jpg" data-title="Bach Brewing Duskrider Red IPA" data-description="This cancelled export order means their loss is your gain, with a great clearance price on this sought after craft beer while stocks last. Duskrider is brewed with seven different malts, Cascade, Amarillo, Citra, and Nelson Sauvin Hops. It has a ruby-red hue and wicked aroma of pine and orange peel. The smooth and creamy body has flavours of caramel and even a touch or sherbet before a moderate bitter finish. Bach Brewing is a family-owned, Auckland-based, gypsy brewing company. The team work alongside other artisan brewers and produce some fantastic craft ales & ciders. In this case, Duskrider was brewed at The Beer Fountain, co-owned by Liberty & Hallertau. At the heart of Bach brewing is their passion for craft beer and a love for the Kiwi Bach... escape, freedom, simplicity and time together with family and friends. With an ABV of 6%, and best before date of 28/12/18, this is the craft beer bargain of the year. Be quick, limited stocks!">
+						<div class="card promo-item">
+							<div class="promo-savings text-center">
+								<span class="promo-savings-text">Save $2.00</span>
+							</div>
+							<div class="promo-img text-center">
+								<img class="mx-auto" src="img/stcrose.jpg" alt="">
+							</div>
+							<div class="card-body promo-details">
+								<h4 class="card-title promo-title">Bach Brewing Duskrider Red IPA</h4>
+								<p class="promo-item-highlight">Export Clearance</p>
+								<p>750mls | Min order: 6 bottles</p>
+								<div class="promo-footer clearfix">
+									<span class="price-initial">$4.99</span> <b class="promo-price">$2.99</b>
+								</div>
+								<span class="btn lips-btn-secondary btn-block">Grab this Deal</span>
+							</div>
+						</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<!-- END: Drinkspy Content -->
+
+<!-- Footer -->
+<footer id="lps-footer" class="lps-footer">
+	<div class="container">
+		<div class="row text-white">
+			<div class="col-sm text-md-center">
+				<h4 class="title-bold my-3 mb-5">&ldquo; NZ’s only price spy to find the best advertised liquor deals &rdquo;</h4>
+			</div>
+		</div>
+		<div class="row text-white">
+			<div class="col-sm-4">
+				<p>Search & compare advertised liquor prices from leading retailers nationwide.</p>
+				<p>We monitor 1000’s of beer, wine and spirits specials every week so you are guaranteed to find the best deal for you!</p>
+			</div>
+			<div class="col-sm">
+				<ul class="list-unstyled">
+					<li><a href="#lps-content">Grab a Deal</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div class="col-sm">
+				<ul class="list-unstyled">
+					<li><a href="#">Subscribe</a></li>
+					<li><a href="#">Sell on Drinkspy</a></li>
+				</ul>
+			</div>
+			<div class="col-sm">
+				<ul class="list-inline list-unstyled list-social">
+					<li class="list-inline-item">
+						<a href="#">
+							<span class="social-icon icon-facebook" title="Facebook" aria-hidden="true"></span>
+							<span class="sr-only">Facebook</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#">
+							<span class="social-icon icon-twitter" aria-hidden="true"></span>
+							<span class="sr-only">Twitter</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#">
+							<span class="social-icon icon-instagram" aria-hidden="true"></span>
+							<span class="sr-only">Instagram</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#">
+							<span class="social-icon icon-mail" aria-hidden="true"></span>
+							<span class="sr-only">Newsletter</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row text-secondary py-2">
+			<div class="col-sm">
+				<small>&copy; Copyright - 2005 Drinkspy. All rights reserved  | <a href="#">Terms &amp; Conditions</a>  |  <a href="#">Privacy Policy</a>  |  <a href="#">back to top</a></small>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- END: Footer -->
+
+</div>
+<!-- END: Pushy Container -->
+
+<!-- Modal -->
+<div class="modal fade" id="subscribe_popup" tabindex="-1" role="dialog" aria-labelledby="lipsModalRegister" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content lips-modal lips-modal-confirm">
+			<div class="modal-body lps-modal-content">
+							
+				<h5 class="modal-title" id="lipsModalRegister">Welcome to Drinkspy</h5>
+				<p class="modal-intro">Search FREE and compare 1000’s of advertised liquor prices across 100’s of retailers nationwide. Join now and receive only the best drinks deals & pricing alerts on your favourite brands.</p>
+
+				<form class="modal-form" action="">
+
+					<div class="form-group">
+						<label class="sr-only" for="input_subscriber_name">First name</label>
+						<input type="text" class="form-control" id="input_subscriber_name" placeholder="First name">
+					</div>
+
+					<div class="form-group">
+						<label class="sr-only" for="input_subscriber_email">Email address</label>
+						<input type="email" class="form-control" id="input_subscriber_email" placeholder="Email address">
+					</div>
+
+					<div class="form-check form-check-terms">
+						<input class="form-check-input" type="checkbox" id="checkAgeConfirm" value="Age">
+						<label class="form-check-label small" for="checkAgeConfirm" onchange="enableJoin(this)">I am 18 years of age or older and agree to Drinkspy's <a href="/Terms">terms of use</a> and <a href="/Privacy">privacy policy.</a></label>
+					</div>
+
+					<button id="button_join" type="button" class="btn btn-primary btn-block" data-backdrop="static" data-keyboard="false" data-dismiss="modal" aria-hidden="true" onclick="join()">Subscribe &amp; continue</button>
+
+				</form>
+
+				<p class="text-center modal-age-confirm"><a aria-hidden="true" data-dismiss="modal" href="#" onclick="alreadyMember()">I'll signup later</a></p>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END: Modal -->
+
+<!-- Scripts -->
+
+<!-- Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Vendor -->
+<script src="js/pushy.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/grid.js"></script>
+
+<script>
+
+	// Global Header filters
+	$('.btn-search-toggle').on('click', function(e){
+		$(this).toggleClass('expanded');
+	});
+
+	// Home Deal Tiles
+	$(function() {
+		Grid.init();
+	});
+
+</script>
+
+<!-- Modal - user subscription validation -->
+<script>
+
+		//<![CDATA[
+
+		function setCookie() {
+			// var expiration = 1000 * 60; // 60 seconds
+			var expiration = 1000 * 60 * 60 * 24 * 15; // 15 days
+			var expires = new Date((new Date()).valueOf() + expiration);
+			document.cookie = "confirmed=true;expires=" + expires.toUTCString();
+		}
+
+		function join() {       
+			setCookie();
+			subscribe($("#input_subscriber_name").val(), $("#input_subscriber_email").val());
+			alert("Thank you " + $("#input_subscriber_name").val() + ". You are now subscribed.");
+		}
+
+		function alreadyMember() {
+			setCookie();
+			$('#subscribe_popup').modal('hide');
+			$('body').removeClass('modal-open');
+			$('.modal-backdrop').remove();
+		}
+
+		function enableJoin(arg) {
+			if ($("#input_subscriber_name").val().length > 0 && $("#input_subscriber_email").val().length > 0) {
+					if (!arg.checked) {
+						document.getElementById("button_join").disabled = true;
+					} else {
+						document.getElementById("button_join").disabled = false;
+					}
+				} else {
+					document.getElementById("checkAgeConfirm").checked = false;
+					alert("Please enter valid name and email details before confirming age.");
+			}
+		}
+
+		$("document").ready(function () {
+			// load the overlay
+			if (document.cookie.indexOf('confirmed=true') == -1) {
+				$('#subscribe_popup').modal();
+			}
+		});
+
+		//]]>
+
+</script>
+
+<!-- END: Scripts -->
+
+</body>
+</html>
