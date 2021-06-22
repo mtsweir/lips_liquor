@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/mtsweir/lips_liquor#readme",
   "devDependencies": {
-    "grunt": "^1.0.1"
+    "grunt": ">=1.3.0"
   },
   "dependencies": {
     "autoprefixer": "^7.1.6"
